@@ -108,5 +108,3 @@ Try these 4 steps right now:
 2. **Jump back**: Press `Cmd + O`, type `Obsidian Basics`, and hit `Enter` to return here.
 3. **Check off a task**: Click one of the checkboxes under the Markdown Essentials section above.
 4. **Try the Command Palette**: Press `Cmd + P`, type `toggle fold`, or search for any action you want to try.
-
-[[Obsidian Practice]]
