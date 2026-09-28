@@ -5,15 +5,15 @@
 > **Date & Time**: Friday, September 25, 2026 · 7:00 PM – 9:00 PM SGT  
 > **Venue**: AWS Office, Singapore  
 > **Event URL**: [Luma Event](https://luma.com/clickh-wxuk?tk=UDQDhF)  
-> **Companion Talk**: [[Trace It, Store It, Ship It - LLM Observability at GovTech SG]] (Joel Foo, GovTech SG)  
-> **Visual Infographic**: [[langfuse-clickhouse-infographic.html|Interactive Meetup Infographic]] (`Attachments/langfuse-clickhouse-infographic.html`)  
-> **Related Notes**: [[The Road Under the Harness (Ng Shangru)]] • [[AI Agent Engineering]] • [[TypeSafe AI Jev - System One Decision Models]] • [[Building AI Agents for Business and Beyond]] • [[Communication Is Key - Agent Protocols (MCP & A2A)]] • [[GDG Monthly Meetup 2609 - Local AI Agent Workshop with Hermes & Google MCP]]
+> **Companion Talk**: Trace It, Store It, Ship It - LLM Observability at GovTech SG (Joel Foo, GovTech SG)  
+> **Visual Infographic**: [Interactive Meetup Infographic](Attachments/langfuse-clickhouse-infographic.html)  
+> **Related Topics**: The Road Under the Harness • AI Agent Engineering • TypeSafe Decision Models • Building AI Agents • Agent Protocols (MCP & A2A)
 
 ---
 
 ## 📸 Opening Slide & Speaker
 
-![[clickhouse-langfuse-max-deichmann.jpg]]
+![clickhouse-langfuse-max-deichmann.jpg](Attachments/clickhouse-langfuse-max-deichmann.jpg)
 
 ---
 
@@ -36,7 +36,7 @@ Building with LLMs is straightforward during prototyping; running them reliably,
 
 ## 🔍 The Observability Gap: Confidently Wrong Support Agents
 
-![[clickhouse-langfuse-observability-gap.jpg]]
+![clickhouse-langfuse-observability-gap.jpg](Attachments/clickhouse-langfuse-observability-gap.jpg)
 
 ### Case Study: Support Agent Hallucination
 - **User Scenario**: A customer asks for a refund after cancelling a Pro subscription on Day 17.
@@ -55,7 +55,7 @@ Building with LLMs is straightforward during prototyping; running them reliably,
 
 ## 🔬 Trace-Level Observability: The Failure Hides Inside the Path
 
-![[clickhouse-langfuse-trace-level-observability.jpg]]
+![clickhouse-langfuse-trace-level-observability.jpg](Attachments/clickhouse-langfuse-trace-level-observability.jpg)
 
 ### Execution Trace Breakdown (`support-agent.handle` — 1,412 ms total)
 1. `classify-intent` (LLM · 242 ms)
@@ -75,7 +75,7 @@ Building with LLMs is straightforward during prototyping; running them reliably,
 
 ## 🔄 How Langfuse Works: The Full Agent Development Loop
 
-![[clickhouse-langfuse-how-langfuse-works.jpg]]
+![clickhouse-langfuse-how-langfuse-works.jpg](Attachments/clickhouse-langfuse-how-langfuse-works.jpg)
 
 Langfuse structures LLM engineering into a continuous, interlocking lifecycle:
 
@@ -114,7 +114,7 @@ flowchart LR
 
 ## ⚡ Architecture & Scale: Why Langfuse + ClickHouse
 
-![[clickhouse-langfuse-why-clickhouse.jpg]]
+![clickhouse-langfuse-why-clickhouse.jpg](Attachments/clickhouse-langfuse-why-clickhouse.jpg)
 
 ### The Core Problem: The Telemetry Volume Spike
 - Transitioning from human-facing SaaS to autonomous multi-step agents increases telemetry volume by **10x to 100x**.
@@ -137,11 +137,11 @@ flowchart LR
 
 ## 🏛️ System Architecture: Vendor-Agnostic Observability Pipeline
 
-![[clickhouse-langfuse-vendor-agnostic-architecture.jpg]]
+![clickhouse-langfuse-vendor-agnostic-architecture.jpg](Attachments/clickhouse-langfuse-vendor-agnostic-architecture.jpg)
 
 ### 1. Universal Ingestion (Open & Ecosystem-Wide)
 - **Frameworks & Models**: 50+ integrations, fully OpenTelemetry-native, with Python and JS/TS SDKs.
-- **Coding Agents**: Capture telemetry from organizational developer tools ([[OpenClaw, Cowork and Claude Code Compared|Claude Code]], Cursor, GitHub Copilot, Codex).
+- **Coding Agents**: Capture telemetry from organizational developer tools (Claude Code, Cursor, GitHub Copilot, Codex).
 - **Gateways & Proxies**: Intercept telemetry straight from LLM routing layers (Portkey, LiteLLM, Cloudflare AI Gateway).
 - **No-Code & Copilot Builders**: Native integrations with Dify, Flowise, Microsoft Copilot Studio, and n8n.
 
@@ -160,7 +160,7 @@ flowchart LR
 ## 💻 Live Walkthrough: Sandbox, Waterfall Spans & Evaluators
 
 ### 1. Interactive Sandbox Demo (`langfuse.com/docs/demo`)
-![[clickhouse-langfuse-live-demo.jpg]]
+![clickhouse-langfuse-live-demo.jpg](Attachments/clickhouse-langfuse-live-demo.jpg)
 
 - Demonstrates trace capture across five workload archetypes:
   - **Q&A Chatbot**: Multi-turn conversation tracing and prompt linking.
@@ -171,7 +171,7 @@ flowchart LR
 - **Langfuse v4 Streaming**: Real-time trace ingestion running up to **165x faster**.
 
 ### 2. Cloud Trace Waterfall Inspection
-![[clickhouse-langfuse-cloud-trace-waterfall.jpg]]
+![clickhouse-langfuse-cloud-trace-waterfall.jpg](Attachments/clickhouse-langfuse-cloud-trace-waterfall.jpg)
 
 - **Trace Analysis (`handle-chatbot-message`)**:
   - **End-to-End Latency**: `11.08s` across multi-step execution.
@@ -184,7 +184,7 @@ flowchart LR
 - **Context Resolution**: Resolved user query (*"Is there a data region in Japan?"*) by retrieving documentation on Tokyo (`ap-northeast-1` at `jp.cloud.langfuse.com`), returning accurate residency endpoints.
 
 ### 3. Cloud Evaluators & LLM-as-a-Judge
-![[clickhouse-langfuse-evaluators.jpg]]
+![clickhouse-langfuse-evaluators.jpg](Attachments/clickhouse-langfuse-evaluators.jpg)
 
 - Automated evaluation rules configured directly over incoming traces.
 - **Evaluation Primitives**:
@@ -196,7 +196,7 @@ flowchart LR
 - **Offline Benchmarking**: Built-in *"Test with sample observations"* tool validates evaluator accuracy against historical production data before deploying online.
 
 ### 4. Real-Time Alerting & Anomaly Routing
-![[clickhouse-langfuse-alerts.jpg]]
+![clickhouse-langfuse-alerts.jpg](Attachments/clickhouse-langfuse-alerts.jpg)
 
 - Monitors custom evaluator scores (e.g. human feedback, user disagreement, policy violation flags).
 - Routes anomaly notifications via Slack and webhooks when failure rates spike across rolling time windows.
@@ -205,7 +205,7 @@ flowchart LR
 
 ## 🏢 Enterprise Adoption & Governance Matrix
 
-![[clickhouse-langfuse-enterprise-adoption.jpg]]
+![clickhouse-langfuse-enterprise-adoption.jpg](Attachments/clickhouse-langfuse-enterprise-adoption.jpg)
 
 ```
 "Generative AI will only earn enterprise trust when we can see what's happening under the hood. 
@@ -221,7 +221,7 @@ turning black-box models into auditable, optimizable assets."
 - Notable production adopters: **Merck, Intuit, Twilio, Samsara, 7-Eleven, Khan Academy, SumUp, Canva**.
 
 ### Deployment Matrix
-![[clickhouse-langfuse-deploy-your-way.jpg]]
+![clickhouse-langfuse-deploy-your-way.jpg](Attachments/clickhouse-langfuse-deploy-your-way.jpg)
 
 | Tier | Deployment Model | Licensing & Pricing | Key Capabilities | Target Workload |
 | :--- | :--- | :--- | :--- | :--- |
@@ -237,7 +237,7 @@ turning black-box models into auditable, optimizable assets."
 ## 🚀 Shipped Features (Jan – Jul 2026) & Roadmap
 
 ### What Already Shipped
-![[clickhouse-langfuse-what-already-shipped.jpg]]
+![clickhouse-langfuse-what-already-shipped.jpg](Attachments/clickhouse-langfuse-what-already-shipped.jpg)
 
 1. **Langfuse v4**:
    - **Observations-First Data Model**: Every single LLM call, tool execution, and agent step is directly queryable as a first-class citizen.
@@ -257,19 +257,19 @@ turning black-box models into auditable, optimizable assets."
 
 ### Current Priorities & Roadmap
 - **Priority 1: Langfuse Gateway (Build & Prototype)**:
-  ![[clickhouse-langfuse-current-priorities-gateway.jpg]]
+  ![clickhouse-langfuse-current-priorities-gateway.jpg](Attachments/clickhouse-langfuse-current-priorities-gateway.jpg)
   - Unified routing and proxy layer for LLMs with automatic fallbacks, unified key management, and zero-code telemetry injection from day one.
 - **Priority 2: Better Evals & Experiments (Test & Evaluate)**:
-  ![[clickhouse-langfuse-current-priorities-evals-experiments.jpg]]
+  ![clickhouse-langfuse-current-priorities-evals-experiments.jpg](Attachments/clickhouse-langfuse-current-priorities-evals-experiments.jpg)
   - Advanced automated evaluation primitives, faster offline dataset benchmarking, and automated regression testing.
 
 ---
 
 ## 📚 Resources & Learning Tracks
 
-![[clickhouse-langfuse-learn-the-loop.jpg]]
+![clickhouse-langfuse-learn-the-loop.jpg](Attachments/clickhouse-langfuse-learn-the-loop.jpg)
 
-![[clickhouse-langfuse-improve-your-agents.jpg]]
+![clickhouse-langfuse-improve-your-agents.jpg](Attachments/clickhouse-langfuse-improve-your-agents.jpg)
 
 - **Path 01 · Concepts (Langfuse Academy)**: End-to-end curriculum on moving agents from prototype to production ([langfuse.com/academy](https://langfuse.com/academy)).
 - **Path 02 · Practice (Hands-on Workshop)**: Practical guides for building agents and closing the observability loop ([langfuse.com/workshop](https://langfuse.com/workshop)).
@@ -278,9 +278,9 @@ turning black-box models into auditable, optimizable assets."
 
 ---
 
-## 🔗 Cross-Vault Connections
-- [[Trace It, Store It, Ship It - LLM Observability at GovTech SG]]: Companion talk by Joel Foo showing how GovTech deployed Langfuse + ClickHouse across the Singapore government (10.2M traces, 4.7M tool calls).
-- [[The Road Under the Harness (Ng Shangru)]]: Architectural philosophy on why enterprise AI requires a shared platform and trace sink.
-- [[AI Agent Engineering]]: Systems engineering for compound AI loops, graphs, and harnesses.
-- [[Communication Is Key - Agent Protocols (MCP & A2A)]]: Deep dive into the Model Context Protocol (MCP) integrated with Langfuse.
-- [[TypeSafe AI Jev - System One Decision Models]]: Non-autoregressive fast classification primitives matching Langfuse's evaluator types.
+## 🔗 Related Topics & Further Reading
+- **Trace It, Store It, Ship It - LLM Observability at GovTech SG**: Companion talk by Joel Foo showing how GovTech deployed Langfuse + ClickHouse across the Singapore government (10.2M traces, 4.7M tool calls).
+- **The Road Under the Harness (Ng Shangru)**: Architectural philosophy on why enterprise AI requires a shared platform and trace sink.
+- **AI Agent Engineering**: Systems engineering for compound AI loops, graphs, and harnesses.
+- **Communication Is Key - Agent Protocols (MCP & A2A)**: Deep dive into the Model Context Protocol (MCP) integrated with Langfuse.
+- **TypeSafe AI Jev - System One Decision Models**: Non-autoregressive fast classification primitives matching Langfuse's evaluator types.

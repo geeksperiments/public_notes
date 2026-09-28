@@ -14,8 +14,8 @@ This repository is an Obsidian knowledge vault synchronized with Git and GitHub.
 
 ## 🔗 Linking & Media Handling
 
-- **Wikilinks**: Always use Obsidian Wikilinks `[[Note Title]]` or `[[Note Title|Alias]]` when referencing other notes. Do not use standard relative markdown links (e.g. avoid `[link](./file.md)`).
-- **Attachments**: All images, generated diagrams, PDFs, and dropped media must be saved to the `Attachments/` directory and embedded using `![[filename.png]]`.
+- **Links & Images**: For 100% dual compatibility between Obsidian and GitHub, use standard Markdown links `[Note Title](./Note%20Title.md)` and standard image embeds `![alt text](Attachments/filename.png)`. (Obsidian has `"useMarkdownLinks": true` configured, and renders both natively). Avoid raw Obsidian `![[...]` image syntax so pictures render directly on GitHub web.
+- **Attachments**: All images, generated diagrams, PDFs, and dropped media must be saved to the `Attachments/` directory.
 
 ---
 

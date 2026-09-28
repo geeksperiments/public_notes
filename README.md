@@ -20,15 +20,15 @@ A curated collection of public technical notes, architecture cheat sheets, and m
 
 - **Write freely**: Just create notes whenever an idea strikes (`Cmd + N` / `Ctrl + N`).
 - **Pasted Images & Media**: Automatically stored in `Attachments/` to keep your workspace tidy.
-- **Organic Structure**: When patterns or recurring themes emerge, group or link them naturally using Obsidian Wikilinks.
-- **Guide**: Read [[Obsidian Basics]] for a starter guide on shortcuts, wikilinks, and graph view.
+- **Organic Structure**: When patterns or recurring themes emerge, group or link them naturally!
+- **Guide**: Read [Obsidian Basics](./Obsidian%20Basics.md) for a starter guide on shortcuts, links, and graph view.
 
 ---
 
 ## 📚 Available Notes
 
-- [[Build Agents with Google Agent CLI]] — Notes, setup guide, architecture flow, and takeaways for `google/agents-cli` and Google ADK.
-- [[Shipping Reliable AI Agents - Building with Langfuse and ClickHouse (Max Deichmann)]] — Observability, trace-level debugging, evaluation loops, and ClickHouse columnar scale by Max Deichmann (CTO, Langfuse).
+- [**Build Agents with Google Agent CLI**](./Build%20Agents%20with%20Google%20Agent%20CLI.md) — Notes, setup guide, architecture flow, and takeaways for `google/agents-cli` and Google ADK.
+- [**Shipping Reliable AI Agents - Building with Langfuse and ClickHouse (Max Deichmann)**](./Shipping%20Reliable%20AI%20Agents%20-%20Building%20with%20Langfuse%20and%20ClickHouse%20(Max%20Deichmann).md) — Observability, trace-level debugging, evaluation loops, and ClickHouse columnar scale by Max Deichmann (CTO, Langfuse).
 
 ---
 

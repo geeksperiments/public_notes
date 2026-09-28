@@ -7,7 +7,7 @@ Notes, prerequisites, and takeaway logs for the online masterclass by **Thu Ya K
 - **Repository**: [github.com/google/agents-cli](https://github.com/google/agents-cli)
 - **Date & Time**: Wednesday, September 16, 2026 · 7:00 PM – 8:00 PM (GMT+8)
 - **Format**: Virtual / Online Session
-- **Related Notes**: [[AI Agent Engineering]]
+- **Topic**: AI Agent Engineering
 
 ---
 
