@@ -2,11 +2,12 @@
 
 Notes, prerequisites, and takeaway logs for the online masterclass by **Thu Ya Kyaw** ([@iamthuya](https://luma.com/user/iamthuya)) hosted by **Beyond the Vibes Community**.
 
-- **Event URL**: [Luma Event](https://luma.com/84fijlfq)
+- **Event URL**: [Luma Event](https://luma.com/84fijlfq?tk=LE8bWb)
+- **Google Meet**: [meet.google.com/ich-tupv-gyj](https://meet.google.com/ich-tupv-gyj)
 - **Repository**: [github.com/google/agents-cli](https://github.com/google/agents-cli)
 - **Date & Time**: Wednesday, September 16, 2026 · 7:00 PM – 8:00 PM (GMT+8)
 - **Format**: Virtual / Online Session
-- **Topic**: AI Agent Engineering
+- **Related Notes**: [[AI Agent Engineering]]
 
 ---
 
@@ -132,7 +133,7 @@ agents-cli run "Reply with 'Agents CLI is ready!' if you can read this."
 # 4. Clean up
 cd .. && rm -rf smoke-agent
 ```
-*If you see `[smoke_agent]: Agents CLI is ready!` in your terminal, your environment is 100% verified and ready for the live workshop.*
+*If you see `[smoke_agent]: Agents CLI is ready!` in your terminal, your MacBook is 100% verified and ready for the live workshop.*
 
 ---
 
@@ -176,6 +177,7 @@ Once `agents-cli setup` is run, the following skills are made available to Antig
 | **`google-agents-cli-publish`** | Agent Registry and Gemini Enterprise registration / fleet management. |
 | **`google-agents-cli-observability`** | Wiring telemetry into Cloud Trace and Google Cloud Logging. |
 
+
 ---
 
 ## ⚡ Essential CLI Commands Cheat Sheet
@@ -206,10 +208,24 @@ Once `agents-cli setup` is run, the following skills are made available to Antig
 
 ## ✍️ Live Session Notes & Takeaways
 
+*(Use this section during the session to capture key insights, code snippets, and terminal tricks)*
+
+### Introduction & Foundations
+- 
+
+### CLI Tips, Shortcuts & Scaffolding
+- 
+
+### Evaluation Harness & LLM-as-a-Judge
+- 
+
+### Antigravity Integration Demos
+- 
+
 ### Action Items & Experiments to Try
 - [x] Run `uvx google-agents-cli setup` on the local machine.
-- [x] Grab a free Gemini API key from Google AI Studio and export `GEMINI_API_KEY`.
+- [x] Grab a free Gemini API key from Google AI Studio and export `GEMINI_API_KEY` (persisted in `~/.env`).
 - [x] Run pre-flight smoke test to verify local agent execution and inference.
-- [ ] Scaffold a test agent using the injected skills.
+- [ ] Prompt Antigravity to scaffold a test agent using the injected skills.
 - [ ] Run a local evaluation suite with `agents-cli eval`.
 - [ ] (Optional experiment) Test routing non-tool agent runs or eval prompts through `agy-bridge` (`http://127.0.0.1:8000/v1`).
