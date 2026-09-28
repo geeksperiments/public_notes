@@ -28,6 +28,7 @@ A curated collection of public technical notes, architecture cheat sheets, and m
 ## 📚 Available Notes
 
 - [[Build Agents with Google Agent CLI]] — Notes, setup guide, architecture flow, and takeaways for `google/agents-cli` and Google ADK.
+- [[Shipping Reliable AI Agents - Building with Langfuse and ClickHouse (Max Deichmann)]] — Observability, trace-level debugging, evaluation loops, and ClickHouse columnar scale by Max Deichmann (CTO, Langfuse).
 
 ---
 
