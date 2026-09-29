@@ -466,7 +466,7 @@ Hector emphasized that an agent harness must balance shared infrastructure with 
 
 ```mermaid
 flowchart TD
-    User([User / Prompt]) -->|request| Cordis["<b>Cordis Plugin Kernel</b><br/><i>Coordinates services based on operational mode</i>"]
+    User(["User / Prompt"]) -->|request| Cordis["<b>Cordis Plugin Kernel</b><br/><i>Coordinates services based on operational mode</i>"]
 
     subgraph SharedAll["🔵 Shared By All Sessions (Global Singletons)"]
         SessionInbox["<b>Session + Inbox</b><br/>web chat ⇄ editor (ACP) ⇄ SDK ⇄ webhook"]
@@ -491,7 +491,7 @@ flowchart TD
     Cordis <--> PerSession
     Cordis <--> SharedPerSession
 
-    ModelAdaptor <-->|request / respond (text only)| ExtLLM["<b>External Model Provider</b><br/>(DeepSeek-V3 / R1 / Azure Foundry)"]
+    ModelAdaptor <-->|"request / respond (text only)"| ExtLLM["<b>External Model Provider</b><br/>(DeepSeek-V3 / R1 / Azure Foundry)"]
 ```
 
 #### Breakdown of the 10 Core Subsystems
@@ -1036,7 +1036,7 @@ flowchart LR
     end
     
     AdmissionPoint -.->|controls context admission| Result
-    PolicyPoint -.->|intercepts & denies before execution| Sink
+    PolicyPoint -.->|"intercepts & denies before execution"| Sink
 ```
 
 - **Two Architectural Defenses Built into `dsh`**:
@@ -1278,13 +1278,13 @@ Gautam revealed the holistic verification matrix executed by Gitar on every inco
 
 ```mermaid
 flowchart TD
-    PR([Incoming PR]) --> C1["<b>01. Local Code Review</b><br/>Bugs and security flaws inside the isolated diff"]
+    PR(["Incoming PR"]) --> C1["<b>01. Local Code Review</b><br/>Bugs and security flaws inside the isolated diff"]
     PR --> C2["<b>02. Cross-Repo Impact</b><br/>Downstream callers, RPC interfaces, and contract breaks"]
     PR --> C3["<b>03. Repository Rules</b><br/>Team architectural policies codified in Markdown"]
     PR --> C4["<b>04. Functional Validation</b><br/>Validates PR solves original issue without unintended drift"]
     PR --> C5["<b>05. CI Failure Analysis</b><br/>Automated root-cause diagnosis & autonomous patch generation"]
 
-    Memory[(<b>Organizational Review Memory</b><br/><i>'Every check reads what we learned from earlier reviews'</i>)]
+    Memory[("<b>Organizational Review Memory</b><br/><i>'Every check reads what we learned from earlier reviews'</i>")]
     
     C1 <--> Memory
     C2 <--> Memory
@@ -1622,7 +1622,7 @@ flowchart TD
         F1 --- F2 --- F3 --- Cost2
     end
 
-    Tier1 -->|Baseline Context| Agent([Active Agent Loop])
+    Tier1 -->|Baseline Context| Agent(["Active Agent Loop"])
     Agent <-->|On-demand Tool Calls| Tier2
 ```
 
@@ -1654,7 +1654,7 @@ Gautam revealed the tier-abstraction pattern Gitar uses to decouple agents from 
 
 ```mermaid
 flowchart TD
-    Task([Incoming Decision]) --> Eval{Decision Type}
+    Task(["Incoming Decision"]) --> Eval{"Decision Type"}
 
     Eval -->|Deterministic Question| PathMatch["<b>NO MODEL CALL (Path Match in Code)</b><br/><i>'Did the diff touch a generated file?'</i><br/>Cost: \$0 · Latency: ~0ms"]
     
@@ -1752,15 +1752,15 @@ turn 6 · read earnings.ts -> timeout
 
 ```mermaid
 flowchart LR
-    Start([Agent Loop Running]) --> Monitor{Turn / Token Budget}
+    Start(["Agent Loop Running"]) --> Monitor{"Turn / Token Budget"}
 
-    Monitor -->|Budget < 75%| Healthy["Normal Tool Execution"]
+    Monitor -->|"Budget < 75%"| Healthy["Normal Tool Execution"]
     
-    Monitor -->|Hits 75% threshold| Nudge["⚠️ <b>NUDGE INTERVENTION</b><br/>Harness injects steer: <i>'Repeated timeouts detected.<br/>Change strategy, search elsewhere, or exit.'</i>"]
+    Monitor -->|"Hits 75% threshold"| Nudge["⚠️ <b>NUDGE INTERVENTION</b><br/>Harness injects steer: <i>'Repeated timeouts detected.<br/>Change strategy, search elsewhere, or exit.'</i>"]
     
-    Monitor -->|Hits 100% hard limit| HardStop["🛑 <b>HARD STOP</b><br/>Deterministic execution termination.<br/>Logs error, prevents runaway billing."]
+    Monitor -->|"Hits 100% hard limit"| HardStop["🛑 <b>HARD STOP</b><br/>Deterministic execution termination.<br/>Logs error, prevents runaway billing."]
 
-    Nudge --> AgentReform{Did Agent Adapt?}
+    Nudge --> AgentReform{"Did Agent Adapt?"}
     AgentReform -->|Yes| Healthy
     AgentReform -->|No| HardStop
 ```
@@ -1872,7 +1872,7 @@ flowchart LR
     
     F3 --> F4["<b>4. Add Eval Case</b><br/>Commit PR + expected finding<br/>to permanent regression suite"]
     
-    F4 -->|<i>Every later change runs it</i>| F3
+    F4 -->|"Every later change runs it"| F3
 ```
 
 #### The 4-Stage Remediation Flywheel
