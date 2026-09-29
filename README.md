@@ -27,6 +27,7 @@ A curated collection of public technical notes, architecture cheat sheets, and m
 
 ## 📚 Available Notes
 
+- [**AI-Generated Code == Code You Can Trust? (AISG & Sonar at EDB)**](./AI-Generated%20Code%20==%20Code%20You%20Can%20Trust%20-%20AISG%20&%20Sonar%20at%20EDB.md) — Harness engineering (Flue, dsh), context engineering, production reliability, and autonomous code review with AI Singapore and Sonar.
 - [**Build Agents with Google Agent CLI**](./Build%20Agents%20with%20Google%20Agent%20CLI.md) — Notes, setup guide, architecture flow, and takeaways for `google/agents-cli` and Google ADK.
 - [**Shipping Reliable AI Agents - Building with Langfuse and ClickHouse (Max Deichmann)**](./Shipping%20Reliable%20AI%20Agents%20-%20Building%20with%20Langfuse%20and%20ClickHouse%20(Max%20Deichmann).md) — Observability, trace-level debugging, evaluation loops, and ClickHouse columnar scale by Max Deichmann (CTO, Langfuse).
 
