@@ -14,6 +14,7 @@ tags:
 
 > [!tip] Presentation Guide
 > Use this note as your live outline. Zoom text in (`Ctrl` + `+`) and switch to **Reading View** (`Ctrl` + `E`) for clean presentation mode.
+> Companion guide: [[Obsidian Basics]] (shareable cheat sheet for attendees).
 
 ---
 
@@ -23,7 +24,7 @@ tags:
 | :--- | :--- | :--- |
 | **0:00 - 2:00** | **1. Two Tools, Two Use Cases**: OneNote for Manual, Obsidian for AI | Relatable workflow (right tool for the right job) |
 | **2:00 - 5:00** | **2. Linked Thinking**: The Concept Behind the Magic | Show `[[Wikilinks]]` & Backlinks panel |
-| **5:00 - 8:00** | **3. The Reveal**: Learning Day Knowledge Graph | Full-screen Graph View on this vault |
+| **5:00 - 8:00** | **3. The Reveal**: Learning Day Knowledge Graph | Switch to `learningday-vault` for full Graph View |
 | **8:00 - 9:30** | **4. The Modern Superpower**: Local Markdown + AI | How AI agents read & write notes for you |
 | **9:30 - 10:00** | **5. Golden Rule**: How to Start (Without Traps) | Advice for beginners |
 
@@ -67,8 +68,8 @@ tags:
 
 ## 3. Live Demo: The Learning Day Knowledge Graph (3 mins)
 
-> [!important] Live Action: Switch to Graph View (`Ctrl` + `G`)
-> Open full-screen. Let the audience see the visual web.
+> [!important] Live Action: Switch to Learning Day Vault Window (`Ctrl` + `G`)
+> Switch to your open `learningday-vault` window for the full 100+ session interactive graph (`Ctrl + G`). (The `public_notes` vault only contains your public cheat sheets).
 
 ### Talking Points for the Graph:
 - *"This isn't a mock-up or a template. This is Learning Day's actual living history."*
