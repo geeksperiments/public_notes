@@ -1,18 +1,18 @@
 # Serve Your First LLM, Then Watch It Break at Scale (Mumshad Mannambeth)
 
 > **Speaker**: **Mumshad Mannambeth** (Founder and CEO, **KodeKloud**)  
-> **Event**: [[ContainerDays Singapore 2026]] (Day 2 · Workshop Track)  
+> **Event**: [ContainerDays Singapore 2026](ContainerDays%20Singapore%202026.md) (Day 2 · Workshop Track)  
 > **Date & Time**: Wednesday, October 28, 2026 · Morning Workshop (~09:00 – 10:30 SGT)  
 > **Stage / Room**: **Workshop Room**  
 > **Title**: *"Serve Your First LLM, Then Watch It Break at Scale"*  
 > **Lab Access**: [kode.wiki/container-days-sg](https://kode.wiki/container-days-sg)  
 > **Core Themes**: LLM Serving Infrastructure · vLLM & Ollama vs Production Engines · GPU Memory Walls · KV Cache Exhaustion · Concurrency & PagedAttention · Continuous Batching Failures · Scaling LLMs on Kubernetes  
 > **Vault Connections**:
-> - [[ContainerDays Singapore 2026]]
-> - [[When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)]]
-> - [[Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)]]
-> - [[Enterprise Sovereign AI - Building with SUSE AI Factory]]
-> - [[Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)]]
+> - [ContainerDays Singapore 2026](ContainerDays%20Singapore%202026.md)
+> - [When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)](When%20Tokens%20Stop%20Being%20the%20Bottleneck%20-%20Operating%20Agentic%20Software%20Factories%20(Carl%20Ross).md)
+> - [Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)](Lessons%20from%20Operating%20an%20Internal%20LLM%20Gateway%20for%20Production%20Agentic%20Applications%20(Zhong%20Liang%20Ong%20&%20Yek%20Khan).md)
+> - [Enterprise Sovereign AI - Building with SUSE AI Factory](Enterprise%20Sovereign%20AI%20-%20Building%20with%20SUSE%20AI%20Factory.md)
+> - [Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)](Governing%20the%20Agentic%20Stack%20on%20Kubernetes%20-%20MCP,%20A2A,%20and%20LLM%20Traffic%20(Robin%20Cher).md)
 
 ---
 
@@ -315,8 +315,8 @@ flowchart LR
 
 ## 🔗 Related Notes & Cross-References
 
-- 🌟 [[ContainerDays Singapore 2026]] — Master conference schedule and session index
-- 🚦 [[Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)]] — Production model routing, failover discipline, and Loge gateway
+- 🌟 [ContainerDays Singapore 2026](ContainerDays%20Singapore%202026.md) — Master conference schedule and session index
+- 🚦 [Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)](Lessons%20from%20Operating%20an%20Internal%20LLM%20Gateway%20for%20Production%20Agentic%20Applications%20(Zhong%20Liang%20Ong%20&%20Yek%20Khan).md) — Production model routing, failover discipline, and Loge gateway
 - ⚡ *The Memory-Bandwidth Wall - Min-Maxing LLM Serving with vLLM (Marcel Wysocki)* — Upcoming Day 2 deep-dive on vLLM internals
-- 🛡️ [[Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)]] — Kubernetes-native AI gateway architecture and traffic governance
-- 🏭 [[When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)]] — High-velocity token consumption
+- 🛡️ [Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)](Governing%20the%20Agentic%20Stack%20on%20Kubernetes%20-%20MCP,%20A2A,%20and%20LLM%20Traffic%20(Robin%20Cher).md) — Kubernetes-native AI gateway architecture and traffic governance
+- 🏭 [When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)](When%20Tokens%20Stop%20Being%20the%20Bottleneck%20-%20Operating%20Agentic%20Software%20Factories%20(Carl%20Ross).md) — High-velocity token consumption

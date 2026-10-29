@@ -1,7 +1,7 @@
 # Build Your Own AI Coding Agent Platform on Kubernetes (Ryan Djurovich)
 
 > **Speaker**: **Ryan Djurovich** (Maintainer of **Podplane** · Founder of [Nadrama.com](https://nadrama.com) · Maintainer of upstream `agent-sandbox`)  
-> **Event**: [[ContainerDays Singapore 2026]] (Day 2 · Hands-On Workshop Track)  
+> **Event**: [ContainerDays Singapore 2026](ContainerDays%20Singapore%202026.md) (Day 2 · Hands-On Workshop Track)  
 > **Date & Time**: Wednesday, October 28, 2026 · Morning/Midday Workshop (~11:45 AM – 1:00 PM SGT)  
 > **Stage / Room**: **Workshop Room**  
 > **Title**: *"Build Your Own AI Coding Agent Platform on Kubernetes"*  
@@ -9,11 +9,11 @@
 > **Slide Portal**: [ryan0x44.com/singapore2026](https://ryan0x44.com/singapore2026)  
 > **Core Themes**: Local Agentic PaaS · Podplane · Upstream Kubernetes `Sandbox` CRD · Pi Coding Agent · Agent Router · Source Gateway · In-Sandbox Process Supervision with `nono` (Landlock LSM + Workload mTLS)  
 > **Vault Connections**:
-> - [[ContainerDays Singapore 2026]] — Master conference schedule and session index
-> - [[Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)]] — Ryan's Day 1 theoretical foundations and sandbox taxonomy
-> - [[When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)]] — Autonomous agent fleets on Kubernetes
-> - [[Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)]] — Infrastructure-level gateway governance
-> - [[Stop Shipping Features with AI. Start Shipping AI Operable Products (Khang Toh)]] — Operational guardrails and sandbox containment
+> - [ContainerDays Singapore 2026](ContainerDays%20Singapore%202026.md) — Master conference schedule and session index
+> - [Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)](Securing%20AI%20Coding%20Agents%20with%20Kubernetes%20Sandboxes%20(Ryan%20Djurovich).md) — Ryan's Day 1 theoretical foundations and sandbox taxonomy
+> - [When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)](When%20Tokens%20Stop%20Being%20the%20Bottleneck%20-%20Operating%20Agentic%20Software%20Factories%20(Carl%20Ross).md) — Autonomous agent fleets on Kubernetes
+> - [Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)](Governing%20the%20Agentic%20Stack%20on%20Kubernetes%20-%20MCP,%20A2A,%20and%20LLM%20Traffic%20(Robin%20Cher).md) — Infrastructure-level gateway governance
+> - [Stop Shipping Features with AI. Start Shipping AI Operable Products (Khang Toh)](Stop%20Shipping%20Features%20with%20AI.%20Start%20Shipping%20AI%20Operable%20Products%20(Khang%20Toh).md) — Operational guardrails and sandbox containment
 
 ---
 
@@ -189,8 +189,8 @@ Pi + tools ── localhost HTTP + session token ──> nono
 
 ## 🔗 Related Notes & Cross-References
 
-- 🌟 [[ContainerDays Singapore 2026]] — Conference schedule and session tracking
-- 🛡️ [[Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)]] — Ryan's Day 1 session detailing sandbox isolation layers and gVisor internals
-- 🏭 [[When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)]] — OpenAI's perspective on hermetic agent sandboxes and autonomous factories
-- 🚦 [[Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)]] — Gateway patterns for managing AI traffic and MCP tools on Kubernetes
-- 🚀 [[Stop Shipping Features with AI. Start Shipping AI Operable Products (Khang Toh)]] — Enforcing runtime policy boundaries and safe action sandboxes
+- 🌟 [ContainerDays Singapore 2026](ContainerDays%20Singapore%202026.md) — Conference schedule and session tracking
+- 🛡️ [Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)](Securing%20AI%20Coding%20Agents%20with%20Kubernetes%20Sandboxes%20(Ryan%20Djurovich).md) — Ryan's Day 1 session detailing sandbox isolation layers and gVisor internals
+- 🏭 [When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)](When%20Tokens%20Stop%20Being%20the%20Bottleneck%20-%20Operating%20Agentic%20Software%20Factories%20(Carl%20Ross).md) — OpenAI's perspective on hermetic agent sandboxes and autonomous factories
+- 🚦 [Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)](Governing%20the%20Agentic%20Stack%20on%20Kubernetes%20-%20MCP,%20A2A,%20and%20LLM%20Traffic%20(Robin%20Cher).md) — Gateway patterns for managing AI traffic and MCP tools on Kubernetes
+- 🚀 [Stop Shipping Features with AI. Start Shipping AI Operable Products (Khang Toh)](Stop%20Shipping%20Features%20with%20AI.%20Start%20Shipping%20AI%20Operable%20Products%20(Khang%20Toh).md) — Enforcing runtime policy boundaries and safe action sandboxes

@@ -21,23 +21,23 @@ A curated collection of public technical notes, architecture cheat sheets, and m
 - **Write freely**: Just create notes whenever an idea strikes (`Cmd + N` / `Ctrl + N`).
 - **Pasted Images & Media**: Automatically stored in `Attachments/` to keep your workspace tidy.
 - **Organic Structure**: When patterns or recurring themes emerge, group or link them naturally!
-- **Guide**: Read [[Obsidian Basics]] for a starter guide on shortcuts, links, and graph view.
+- **Guide**: Read [Obsidian Basics](Obsidian%20Basics.md) for a starter guide on shortcuts, links, and graph view.
 
 ---
 
 ## 📚 Available Notes
 
-- [[ContainerDays Singapore 2026|**ContainerDays & AI Context Singapore 2026 (Executive Conference Summary)**]] — Comprehensive 2-day conference digest across 16 attended sessions, keynotes, and workshops at Suntec Singapore. Focuses on Kubernetes agent sandboxes (`agents.x-k8s.io`), disaggregated Token Factories, agent-native developer platforms, and LLM gateway governance.
-  - [[Building a High-Performance Token Factory (Jerry Chen)|Building a High-Performance Token Factory (Jerry Chen · DaoCloud / d.run)]] — Heterogeneous compute pooling (HAMi/DRA/Kueue), 4-tier KV cache inventory (ContextStore), and MatrixHub model hydration.
-  - [[Your Next Platform User Isn't Human - Building an AI-Native Developer Platform (Yashod Perera)|Your Next Platform User Isn't Human (Yashod Perera · OpenChoreo)]] — Moving past human portals; exposing Control Plane & Observability MCP servers with CEL-rendered abstractions.
-  - [[When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)|Operating Agentic Software Factories (Carl Ross · OpenAI)]] — Asymptotic token economics, WASM actor swarms, and deterministic verification harnesses.
-  - [[Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)|Governing the Agentic Stack on Kubernetes (Robin Cher · Kong)]] — 1 Gateway, 3 Profiles (LLM, MCP, A2A) enforcing token budgets, prompt injection guards, and tool RBAC.
-  - [[Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)]] — Ephemeral Kubernetes Sandbox CRD, Linux Landlock filesystem restrictions, and SPIFFE mTLS identities.
-  - [[Fireside Chat with Kelsey Hightower & Geet Bhanawat]] — Infrastructure fundamentals, 1-5-60 telecom triage benchmarks, and 5G network slicing.
-- [[Obsidian in 10 Mins - From Notes to Knowledge Graph & AI|**Obsidian in 10 Minutes: From Manual Notes to Linked Thinking & AI**]] — 10-minute presentation outline on OneNote vs. Obsidian, linked thinking vs. folders, knowledge graphs, and local AI agent workflows.
-- [[AI-Generated Code == Code You Can Trust - AISG & Sonar at EDB|**AI-Generated Code == Code You Can Trust? (AISG & Sonar at EDB)**]] — Harness engineering (Flue, dsh), context engineering, production reliability, and autonomous code review with AI Singapore and Sonar.
-- [[Build Agents with Google Agent CLI|**Build Agents with Google Agent CLI**]] — Notes, setup guide, architecture flow, and takeaways for `google/agents-cli` and Google ADK.
-- [[Shipping Reliable AI Agents - Building with Langfuse and ClickHouse (Max Deichmann)|**Shipping Reliable AI Agents - Building with Langfuse and ClickHouse (Max Deichmann)**]] — Observability, trace-level debugging, evaluation loops, and ClickHouse columnar scale by Max Deichmann (CTO, Langfuse).
+- [**ContainerDays & AI Context Singapore 2026 (Executive Conference Summary)**](ContainerDays%20Singapore%202026.md) — Comprehensive 2-day conference digest across 16 attended sessions, keynotes, and workshops at Suntec Singapore. Focuses on Kubernetes agent sandboxes (`agents.x-k8s.io`), disaggregated Token Factories, agent-native developer platforms, and LLM gateway governance.
+  - [Building a High-Performance Token Factory (Jerry Chen · DaoCloud / d.run)](Building%20a%20High-Performance%20Token%20Factory%20(Jerry%20Chen).md) — Heterogeneous compute pooling (HAMi/DRA/Kueue), 4-tier KV cache inventory (ContextStore), and MatrixHub model hydration.
+  - [Your Next Platform User Isn't Human (Yashod Perera · OpenChoreo)](Your%20Next%20Platform%20User%20Isn't%20Human%20-%20Building%20an%20AI-Native%20Developer%20Platform%20(Yashod%20Perera).md) — Moving past human portals; exposing Control Plane & Observability MCP servers with CEL-rendered abstractions.
+  - [Operating Agentic Software Factories (Carl Ross · OpenAI)](When%20Tokens%20Stop%20Being%20the%20Bottleneck%20-%20Operating%20Agentic%20Software%20Factories%20(Carl%20Ross).md) — Asymptotic token economics, WASM actor swarms, and deterministic verification harnesses.
+  - [Governing the Agentic Stack on Kubernetes (Robin Cher · Kong)](Governing%20the%20Agentic%20Stack%20on%20Kubernetes%20-%20MCP,%20A2A,%20and%20LLM%20Traffic%20(Robin%20Cher).md) — 1 Gateway, 3 Profiles (LLM, MCP, A2A) enforcing token budgets, prompt injection guards, and tool RBAC.
+  - [Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)](Securing%20AI%20Coding%20Agents%20with%20Kubernetes%20Sandboxes%20(Ryan%20Djurovich).md) — Ephemeral Kubernetes Sandbox CRD, Linux Landlock filesystem restrictions, and SPIFFE mTLS identities.
+  - [Fireside Chat with Kelsey Hightower & Geet Bhanawat](Fireside%20Chat%20with%20Kelsey%20Hightower%20&%20Geet%20Bhanawat.md) — Infrastructure fundamentals, 1-5-60 telecom triage benchmarks, and 5G network slicing.
+- [**Obsidian in 10 Minutes: From Manual Notes to Linked Thinking & AI**](Obsidian%20in%2010%20Mins%20-%20From%20Notes%20to%20Knowledge%20Graph%20&%20AI.md) — 10-minute presentation outline on OneNote vs. Obsidian, linked thinking vs. folders, knowledge graphs, and local AI agent workflows.
+- [**AI-Generated Code == Code You Can Trust? (AISG & Sonar at EDB)**](AI-Generated%20Code%20==%20Code%20You%20Can%20Trust%20-%20AISG%20&%20Sonar%20at%20EDB.md) — Harness engineering (Flue, dsh), context engineering, production reliability, and autonomous code review with AI Singapore and Sonar.
+- [**Build Agents with Google Agent CLI**](Build%20Agents%20with%20Google%20Agent%20CLI.md) — Notes, setup guide, architecture flow, and takeaways for `google/agents-cli` and Google ADK.
+- [**Shipping Reliable AI Agents - Building with Langfuse and ClickHouse (Max Deichmann)**](Shipping%20Reliable%20AI%20Agents%20-%20Building%20with%20Langfuse%20and%20ClickHouse%20(Max%20Deichmann).md) — Observability, trace-level debugging, evaluation loops, and ClickHouse columnar scale by Max Deichmann (CTO, Langfuse).
 
 ---
 

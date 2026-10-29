@@ -9,7 +9,7 @@
 > • **Gautam Korlam** (Principal Engineer @ Sonar · Co-Founder & CTO of Gitar, ex-Uber Developer Platform)  
 > • **Terence Kong** (AI Engineer & AIxTech Curriculum Lead @ AI Singapore)  
 > • **Hector Tan** (AI Engineer & AIxTech Community Lead @ AI Singapore)  
-> **Vault Connections**: [[The Road Under the Harness (Ng Shangru)]] • [[Do You Trust Your AI - Beyond the Vibes at SGInnovate]] • [[AI Agent Engineering]] • [[Shipping Reliable AI Agents - Building with Langfuse and ClickHouse (Max Deichmann)]] • [[Trace It, Store It, Ship It - LLM Observability at GovTech SG]] • [[OpenClaw, Cowork and Claude Code Compared]] • [[Design Patterns for AI Agents]]
+> **Vault Connections**: [[The Road Under the Harness (Ng Shangru)]] • [[Do You Trust Your AI - Beyond the Vibes at SGInnovate]] • [[AI Agent Engineering]] • [Shipping Reliable AI Agents - Building with Langfuse and ClickHouse (Max Deichmann)](Shipping%20Reliable%20AI%20Agents%20-%20Building%20with%20Langfuse%20and%20ClickHouse%20(Max%20Deichmann).md) • [[Trace It, Store It, Ship It - LLM Observability at GovTech SG]] • [[OpenClaw, Cowork and Claude Code Compared]] • [[Design Patterns for AI Agents]]
 
 ---
 
@@ -135,13 +135,13 @@ flowchart TD
      - Not just answering questions or editing single buffers—the agent reads repo structures, searches across thousands of files via `ripgrep`, plans multi-file architectural refactors, executes bash commands, and verifies output.
      - Autonomous test-and-repair loops: running test suites, reading stack traces, editing failing code, and repeating until tests pass.
    - **The Frontier Lab Convergence on the Terminal CLI**:
-     - Following Anthropic's Claude Code, Google released the **Gemini CLI / [[Build Agents with Google Agent CLI|Google Agent CLI]]**, and OpenAI launched their own terminal-native CLI agent workflows.
+     - Following Anthropic's Claude Code, Google released the **Gemini CLI / [Google Agent CLI](Build%20Agents%20with%20Google%20Agent%20CLI.md)**, and OpenAI launched their own terminal-native CLI agent workflows.
      - **Why the CLI Became the Universal Agent Battleground**:
        - *Native Tooling Access*: Direct execution of the entire developer toolchain (`git`, compilers, test suites, linters, `docker`).
        - *Deterministic Feedback Loops*: The agent consumes real stdout, stderr, and exit codes directly from the OS, enabling rapid self-correction without human intervention.
        - *Headless & Background Operation*: Unlike GUI or browser extensions, CLI agents run smoothly in headless environments, CI/CD runners, and remote VMs.
    - **Vault Alignment**:
-     - Directly mirrors the agent hierarchy discussed in [[The Road Under the Harness (Ng Shangru)]] and [[Build Agents with Google Agent CLI]]: terminal-native agents have cemented the CLI as the execution substrate for autonomous coding.
+     - Directly mirrors the agent hierarchy discussed in [[The Road Under the Harness (Ng Shangru)]] and [Build Agents with Google Agent CLI](Build%20Agents%20with%20Google%20Agent%20CLI.md): terminal-native agents have cemented the CLI as the execution substrate for autonomous coding.
 
 ![aisg-harness-agent-manager-panel.jpg](Attachments/aisg-harness-agent-manager-panel.jpg)
 

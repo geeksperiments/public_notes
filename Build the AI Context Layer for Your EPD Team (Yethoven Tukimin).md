@@ -1,17 +1,17 @@
 # Build the AI Context Layer for Your EPD Team (Yethoven Tukimin)
 
 > **Speaker**: **Yethoven Tukimin** (Solutions Engineering / Technical Architect, **Notion**)  
-> **Event**: [[ContainerDays Singapore 2026]] (Day 2 · AI Context Track)  
+> **Event**: [ContainerDays Singapore 2026](ContainerDays%20Singapore%202026.md) (Day 2 · AI Context Track)  
 > **Date & Time**: Wednesday, October 28, 2026 · Morning Workshop (~11:00 – 12:00 SGT)  
 > **Stage / Room**: **Workshop Room**  
 > **Title**: *"Build the AI Context Layer for Your EPD Team"*  
 > **Platform / Engine**: **Notion** as the Centralized EPD AI Context Substrate  
 > **Core Themes**: EPD Alignment (Engineering, Product, Design) · AI Context Middleware · Notion as a Knowledge Graph · Model Context Protocol (MCP) · Living Documentation · PRD-to-Code Traceability · Eliminating Hallucinated Requirements  
 > **Vault Connections**:
-> - [[ContainerDays Singapore 2026]] — Master conference schedule and session index
-> - [[Stop Shipping Features with AI. Start Shipping AI Operable Products (Khang Toh)]] — Connecting product intent to runtime operability
-> - [[When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)]] — Grounding coding agents with domain specifications
-> - [[Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)]] — MCP protocol integration & agent governance
+> - [ContainerDays Singapore 2026](ContainerDays%20Singapore%202026.md) — Master conference schedule and session index
+> - [Stop Shipping Features with AI. Start Shipping AI Operable Products (Khang Toh)](Stop%20Shipping%20Features%20with%20AI.%20Start%20Shipping%20AI%20Operable%20Products%20(Khang%20Toh).md) — Connecting product intent to runtime operability
+> - [When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)](When%20Tokens%20Stop%20Being%20the%20Bottleneck%20-%20Operating%20Agentic%20Software%20Factories%20(Carl%20Ross).md) — Grounding coding agents with domain specifications
+> - [Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)](Governing%20the%20Agentic%20Stack%20on%20Kubernetes%20-%20MCP,%20A2A,%20and%20LLM%20Traffic%20(Robin%20Cher).md) — MCP protocol integration & agent governance
 > - *Communication Is Key - Agent Protocols (MCP & A2A)* — Standardized protocol interfaces for agent tooling
 
 ---
@@ -168,8 +168,8 @@ Configure your team's development environments (e.g. `~/.cursor/mcp.json` or Cla
 
 ## 🔗 Related Notes & Cross-References
 
-- 🌟 [[ContainerDays Singapore 2026]] — Conference schedule and session tracking
-- 🏭 [[When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)]] — Using domain specifications to guide autonomous software factories
-- 🚀 [[Stop Shipping Features with AI. Start Shipping AI Operable Products (Khang Toh)]] — Connecting PRD requirements to runtime operational surfaces
-- 🛡️ [[Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)]] — Infrastructure governance for MCP traffic
+- 🌟 [ContainerDays Singapore 2026](ContainerDays%20Singapore%202026.md) — Conference schedule and session tracking
+- 🏭 [When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)](When%20Tokens%20Stop%20Being%20the%20Bottleneck%20-%20Operating%20Agentic%20Software%20Factories%20(Carl%20Ross).md) — Using domain specifications to guide autonomous software factories
+- 🚀 [Stop Shipping Features with AI. Start Shipping AI Operable Products (Khang Toh)](Stop%20Shipping%20Features%20with%20AI.%20Start%20Shipping%20AI%20Operable%20Products%20(Khang%20Toh).md) — Connecting PRD requirements to runtime operational surfaces
+- 🛡️ [Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)](Governing%20the%20Agentic%20Stack%20on%20Kubernetes%20-%20MCP,%20A2A,%20and%20LLM%20Traffic%20(Robin%20Cher).md) — Infrastructure governance for MCP traffic
 - 🔗 *Communication Is Key - Agent Protocols (MCP & A2A)* — Protocol architecture for AI tool interoperability

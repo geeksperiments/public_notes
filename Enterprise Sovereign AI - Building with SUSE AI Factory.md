@@ -1,16 +1,16 @@
 # Enterprise Sovereign AI: Building with SUSE AI Factory
 
-> **Event**: [[ContainerDays Singapore 2026]] (Day 1 Afternoon / Expo Hall)  
+> **Event**: [ContainerDays Singapore 2026](ContainerDays%20Singapore%202026.md) (Day 1 Afternoon / Expo Hall)  
 > **Date**: Tuesday, October 27, 2026  
 > **Presenter / Host**: **SUSE** (Featuring Hak Beng Ng, Head of Solutions Architect, SEA & South Korea & SUSE Solutions Team)  
 > **Location**: **SUSE Booth (Exhibition / Sponsor Showcase)**  
 > **Talk Title**: *"Enterprise Sovereign AI: Building with SUSE AI Factory"*  
 > **Vault Connections**:
-> - [[Will Everyone Build an AI Factory? (Saiyam Pathak)]] — Modular containerized AI factories meets sovereign enterprise Linux & K8s
-> - [[Fireside Chat with Kelsey Hightower & Geet Bhanawat]] — Sovereign infrastructure, operational readiness, and enterprise standardization
-> - [[When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)]] — Operating continuous agentic factories with zero-trust guardrails
-> - [[Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)]] — Sandboxing untrusted agent runtimes
-> - [[Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)]] — Enterprise gateway control and policy enforcement
+> - [Will Everyone Build an AI Factory? (Saiyam Pathak)](Will%20Everyone%20Build%20an%20AI%20Factory?%20(Saiyam%20Pathak).md) — Modular containerized AI factories meets sovereign enterprise Linux & K8s
+> - [Fireside Chat with Kelsey Hightower & Geet Bhanawat](Fireside%20Chat%20with%20Kelsey%20Hightower%20&%20Geet%20Bhanawat.md) — Sovereign infrastructure, operational readiness, and enterprise standardization
+> - [When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)](When%20Tokens%20Stop%20Being%20the%20Bottleneck%20-%20Operating%20Agentic%20Software%20Factories%20(Carl%20Ross).md) — Operating continuous agentic factories with zero-trust guardrails
+> - [Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)](Securing%20AI%20Coding%20Agents%20with%20Kubernetes%20Sandboxes%20(Ryan%20Djurovich).md) — Sandboxing untrusted agent runtimes
+> - [Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)](Lessons%20from%20Operating%20an%20Internal%20LLM%20Gateway%20for%20Production%20Agentic%20Applications%20(Zhong%20Liang%20Ong%20&%20Yek%20Khan).md) — Enterprise gateway control and policy enforcement
 
 ---
 
@@ -88,11 +88,11 @@ In **Slide 14 ("Sovereign Enterprise AI Demands")**, SUSE laid bare the core fai
 | Dimension | ⚠️ The DIY AI Pitfall | ✅ SUSE AI Factory Approach |
 | :--- | :--- | :--- |
 | **Toolchain Stability** | **Fragile Toolchains**: Stitching together dozens of disparate open-source tools (Ray, JupyterHub, vLLM, custom Python scripts, ad-hoc drivers) creates fragile snowflake clusters that break on updates. | **Turnkey Assembly Line**: Pre-validated, end-to-end enterprise software stack delivered as an automated digital factory. |
-| **GPU Efficiency** | **GPU Waste**: Inefficient static scheduling and fragmented driver versions lead to the industry-wide **5% average GPU utilization crisis** (highlighted in [[Will Everyone Build an AI Factory? (Saiyam Pathak)]]). | **Native NVIDIA Support**: Seamless hardware acceleration with native **NVIDIA NIM**, dynamic GPU slicing (HAMi / DRA), and zero-downtime kernel live patching. |
+| **GPU Efficiency** | **GPU Waste**: Inefficient static scheduling and fragmented driver versions lead to the industry-wide **5% average GPU utilization crisis** (highlighted in [Will Everyone Build an AI Factory? (Saiyam Pathak)](Will%20Everyone%20Build%20an%20AI%20Factory?%20(Saiyam%20Pathak).md)). | **Native NVIDIA Support**: Seamless hardware acceleration with native **NVIDIA NIM**, dynamic GPU slicing (HAMi / DRA), and zero-downtime kernel live patching. |
 | **Data Governance** | **Data Exposure**: Leaking sensitive customer PII, internal proprietary code, and enterprise knowledge via public cloud LLM API tokens, violating regional data residency mandates (e.g. MAS in Singapore, GDPR, EU AI Act). | **Strict Sovereignty**: Complete on-premises and private sovereign cloud data control with **zero token egress** outside the enterprise perimeter. |
 
 ### 2. The Operational Day-15 Crisis
-Directly answering the 4 governance questions posed in [[Will Everyone Build an AI Factory? (Saiyam Pathak)]]:
+Directly answering the 4 governance questions posed in [Will Everyone Build an AI Factory? (Saiyam Pathak)](Will%20Everyone%20Build%20an%20AI%20Factory?%20(Saiyam%20Pathak).md):
 - *Who gets which GPU?* $\to$ Governed dynamically via Rancher Prime + HAMi/DRA fractional GPU slicing.
 - *Who can see whose data?* $\to$ Enforced via vCluster virtual tenant clusters and NeuVector L7 network micro-segmentation.
 - *Whose upgrade breaks whom?* $\to$ Isolated through independent virtual control planes; host kernel patched with SLES Live Patching without interrupting training jobs.
@@ -174,7 +174,7 @@ sequenceDiagram
    - Installed alongside the broader enterprise suite: **SUSE AI Assistant** (v1.1.0), **SUSE Observability** (v2.4.3), **SUSE OS Management** (v3.0.3), and **SUSE Virtualization / Harvester** (v1.9.0).
 2. **Production Workloads Monitored in Real-Time (`dashboard/c/local/suseai/overview`)**:
    - In the live demo, the overview panel confirmed **3 active workloads (3 running, 0 with issues)**:
-     - **`LiteLLM`** *(Cluster: `local`)*: Centralized enterprise AI gateway providing OpenAI-compatible routing, rate-limiting, token quotas, and policy enforcement (connecting directly to [[Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)]]!).
+     - **`LiteLLM`** *(Cluster: `local`)*: Centralized enterprise AI gateway providing OpenAI-compatible routing, rate-limiting, token quotas, and policy enforcement (connecting directly to [Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)](Lessons%20from%20Operating%20an%20Internal%20LLM%20Gateway%20for%20Production%20Agentic%20Applications%20(Zhong%20Liang%20Ong%20&%20Yek%20Khan).md)!).
      - **`Simple Chatbot with RAG`** *(Cluster: `onpremrke2`, v1.0.2)*: Turnkey retrieval-augmented generation pipeline with vector search and vLLM acceleration.
      - **`Custom AI Blueprint 1`** *(Cluster: `onpremrke2`, v1.0.0)*: Custom fine-tuned internal agent inference endpoint running on Harvester-virtualized enterprise GPUs.
 3. **The Certified Enterprise Blueprint Catalog (9 Active Blueprints)**:
@@ -225,7 +225,7 @@ The live demonstration showcased Rancher Prime managing **8 heterogeneous cluste
 
 ### 3. Zero-Trust Agent Security & Guardrails
 - **NVIDIA OpenShell Integration**:
-  - Directly supports Jensen Huang's security mandate highlighted in [[Will Everyone Build an AI Factory? (Saiyam Pathak)]]: *"Every single time an agent is launched, the privileges are different."*
+  - Directly supports Jensen Huang's security mandate highlighted in [Will Everyone Build an AI Factory? (Saiyam Pathak)](Will%20Everyone%20Build%20an%20AI%20Factory?%20(Saiyam%20Pathak).md): *"Every single time an agent is launched, the privileges are different."*
   - Provides dynamic, least-privilege sandboxes for agent execution with in-silicon hardware boundaries.
 - **NeuVector Prime (Container Security Platform)**:
   - Performs Layer 7 deep packet inspection (DPI) on inter-agent communication (A2A traffic) and Model Context Protocol (MCP) tool traffic.
@@ -267,8 +267,8 @@ The live demonstration showcased Rancher Prime managing **8 heterogeneous cluste
 
 ## 🔗 Related Notes & Conference Sessions
 
-- 🌟 [[ContainerDays Singapore 2026]] — Conference schedule, tracker, and overarching takeaways
-- 🏭 [[Will Everyone Build an AI Factory? (Saiyam Pathak)]] — vCluster multi-tenancy, GPU slicing with HAMi, and disaggregated inference serving
-- 💬 [[Fireside Chat with Kelsey Hightower & Geet Bhanawat]] — Infrastructure as a workload carrier; Singtel's enterprise AI scaling
-- 🚀 [[When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)]] — Operating continuous autonomous agent swarms
-- 🛡️ [[Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)]] — Kubernetes-native sandboxing CRDs
+- 🌟 [ContainerDays Singapore 2026](ContainerDays%20Singapore%202026.md) — Conference schedule, tracker, and overarching takeaways
+- 🏭 [Will Everyone Build an AI Factory? (Saiyam Pathak)](Will%20Everyone%20Build%20an%20AI%20Factory?%20(Saiyam%20Pathak).md) — vCluster multi-tenancy, GPU slicing with HAMi, and disaggregated inference serving
+- 💬 [Fireside Chat with Kelsey Hightower & Geet Bhanawat](Fireside%20Chat%20with%20Kelsey%20Hightower%20&%20Geet%20Bhanawat.md) — Infrastructure as a workload carrier; Singtel's enterprise AI scaling
+- 🚀 [When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)](When%20Tokens%20Stop%20Being%20the%20Bottleneck%20-%20Operating%20Agentic%20Software%20Factories%20(Carl%20Ross).md) — Operating continuous autonomous agent swarms
+- 🛡️ [Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)](Securing%20AI%20Coding%20Agents%20with%20Kubernetes%20Sandboxes%20(Ryan%20Djurovich).md) — Kubernetes-native sandboxing CRDs

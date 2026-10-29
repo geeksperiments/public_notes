@@ -1,12 +1,12 @@
 # Lessons from Operating an Internal LLM Gateway for Production Agentic Applications
 
 > **Speakers**: Yek Khan Siang & Zhong Liang Ong (Production Engineering @ [Liftoff Mobile](https://liftoff.io))  
-> **Event**: [[ContainerDays Singapore 2026]]  
+> **Event**: [ContainerDays Singapore 2026](ContainerDays%20Singapore%202026.md)  
 > **Date & Time**: Tuesday, October 27, 2026 · 12:25 PM – 12:40 PM SGT  
 > **Room**: Synergies Theatre  
 > **Gateway Platform**: **Loge** (Liftoff Mobile's Internal LLM Gateway)  
 > **Core Topics**: LLM Gateways · Credential Isolation · Kubernetes DNS · Tailscale ACL Auth · Safe Retries vs Cross-Model Fallback · Privacy-Conscious Metadata Tracing  
-> **Vault Connections**: [[Confessions of a Portal Assistant (Yashod Perera)]] • [[Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)]] • [[Taming Agent Sprawl - How We Scale Evals to Keep Up with Agents (Timothy Lin)]] • *Trace It, Store It, Ship It - LLM Observability at GovTech SG*
+> **Vault Connections**: [Confessions of a Portal Assistant (Yashod Perera)](Confessions%20of%20a%20Portal%20Assistant%20(Yashod%20Perera).md) • [Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)](Securing%20AI%20Coding%20Agents%20with%20Kubernetes%20Sandboxes%20(Ryan%20Djurovich).md) • [Taming Agent Sprawl - How We Scale Evals to Keep Up with Agents (Timothy Lin)](Taming%20Agent%20Sprawl%20-%20How%20We%20Scale%20Evals%20to%20Keep%20Up%20with%20Agents%20(Timothy%20Lin).md) • *Trace It, Store It, Ship It - LLM Observability at GovTech SG*
 
 ---
 
@@ -312,7 +312,7 @@ flowchart LR
 ---
 
 ## 🔗 Related Notes & References
-- [[ContainerDays Singapore 2026]] — Conference master agenda and session tracking
-- [[Confessions of a Portal Assistant (Yashod Perera)]] — Managing agent token spend via AI Gateways
-- [[Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)]] — The Agent Router & Source Gateway primitives
-- [[Taming Agent Sprawl - How We Scale Evals to Keep Up with Agents (Timothy Lin)]] — Scaling agent quality and managing token budgets
+- [ContainerDays Singapore 2026](ContainerDays%20Singapore%202026.md) — Conference master agenda and session tracking
+- [Confessions of a Portal Assistant (Yashod Perera)](Confessions%20of%20a%20Portal%20Assistant%20(Yashod%20Perera).md) — Managing agent token spend via AI Gateways
+- [Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)](Securing%20AI%20Coding%20Agents%20with%20Kubernetes%20Sandboxes%20(Ryan%20Djurovich).md) — The Agent Router & Source Gateway primitives
+- [Taming Agent Sprawl - How We Scale Evals to Keep Up with Agents (Timothy Lin)](Taming%20Agent%20Sprawl%20-%20How%20We%20Scale%20Evals%20to%20Keep%20Up%20with%20Agents%20(Timothy%20Lin).md) — Scaling agent quality and managing token budgets
