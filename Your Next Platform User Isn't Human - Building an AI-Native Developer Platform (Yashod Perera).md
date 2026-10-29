@@ -1,18 +1,18 @@
 # Your Next Platform User Isn't Human: Building an AI-Native Developer Platform (Yashod Perera)
 
 > **Speaker**: **Yashod Perera** (Maintainer, **WSO2 LLC**)  
-> **Event**: [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md) (Day 2 · Main Track)  
+> **Event**: [[ContainerDays Singapore 2026]] (Day 2 · Main Track)  
 > **Date & Time**: Wednesday, October 28, 2026 · 1:55 PM – 2:30 PM SGT (13:55 – 14:30)  
 > **Stage / Room**: **CDS Theatre**  
 > **Title**: *"Your Next Platform User Isn't Human: Building an AI-Native Developer Platform"*  
 > **Core Themes**: AI-Native Internal Developer Platforms (IDPs) · Non-Human Platform Consumers · Model Context Protocol (MCP) · Machine-Readable Infrastructure Contracts · Dual-Surface Architecture · Safe Actuation & Blast Radius Controls  
 > **Vault Connections**:
-> - [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md) — Master conference schedule and session index
-> - [Confessions of a Portal Assistant (Yashod Perera)](./Confessions%20of%20a%20Portal%20Assistant%20%28Yashod%20Perera%29.md) — Yashod's Day 1 session on portal assistant evaluation and platform drift
-> - [Stop Shipping Features with AI. Start Shipping AI Operable Products (Khang Toh)](./Stop%20Shipping%20Features%20with%20AI.%20Start%20Shipping%20AI%20Operable%20Products%20%28Khang%20Toh%29.md) — The Dual-User Surface (Human SREs vs Autonomous Agents)
-> - [When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)](./When%20Tokens%20Stop%20Being%20the%20Bottleneck%20-%20Operating%20Agentic%20Software%20Factories%20%28Carl%20Ross%29.md) — Autonomous agent fleets driving infrastructure
-> - [Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)](./Governing%20the%20Agentic%20Stack%20on%20Kubernetes%20-%20MCP%2C%20A2A%2C%20and%20LLM%20Traffic%20%28Robin%20Cher%29.md) — Infrastructure-level gateway governance for agent traffic
-> - [Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)](./Securing%20AI%20Coding%20Agents%20with%20Kubernetes%20Sandboxes%20%28Ryan%20Djurovich%29.md) — Sandboxing untrusted agent executions on Kubernetes
+> - [[ContainerDays Singapore 2026]] — Master conference schedule and session index
+> - [[Confessions of a Portal Assistant (Yashod Perera)]] — Yashod's Day 1 session on portal assistant evaluation and platform drift
+> - [[Stop Shipping Features with AI. Start Shipping AI Operable Products (Khang Toh)]] — The Dual-User Surface (Human SREs vs Autonomous Agents)
+> - [[When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)]] — Autonomous agent fleets driving infrastructure
+> - [[Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)]] — Infrastructure-level gateway governance for agent traffic
+> - [[Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)]] — Sandboxing untrusted agent executions on Kubernetes
 
 ---
 
@@ -751,8 +751,8 @@ Yashod synthesized the session into a concise, **platform-agnostic blueprint** f
 
 ## 🔗 Related Notes & Cross-References
 
-- 🌟 [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md) — Conference schedule and session tracking
-- 🧭 [Confessions of a Portal Assistant (Yashod Perera)](./Confessions%20of%20a%20Portal%20Assistant%20%28Yashod%20Perera%29.md) — Yashod's Day 1 session on portal assistant evaluation and platform drift
-- 🚀 [Stop Shipping Features with AI. Start Shipping AI Operable Products (Khang Toh)](./Stop%20Shipping%20Features%20with%20AI.%20Start%20Shipping%20AI%20Operable%20Products%20%28Khang%20Toh%29.md) — Defining the dual-user surface for human SREs and autonomous agents
-- 🏭 [When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)](./When%20Tokens%20Stop%20Being%20the%20Bottleneck%20-%20Operating%20Agentic%20Software%20Factories%20%28Carl%20Ross%29.md) — Autonomous agent fleets driving infrastructure
-- 🛡️ [Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)](./Governing%20the%20Agentic%20Stack%20on%20Kubernetes%20-%20MCP%2C%20A2A%2C%20and%20LLM%20Traffic%20%28Robin%20Cher%29.md) — Infrastructure-level gateway governance for agent traffic
+- 🌟 [[ContainerDays Singapore 2026]] — Conference schedule and session tracking
+- 🧭 [[Confessions of a Portal Assistant (Yashod Perera)]] — Yashod's Day 1 session on portal assistant evaluation and platform drift
+- 🚀 [[Stop Shipping Features with AI. Start Shipping AI Operable Products (Khang Toh)]] — Defining the dual-user surface for human SREs and autonomous agents
+- 🏭 [[When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)]] — Autonomous agent fleets driving infrastructure
+- 🛡️ [[Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)]] — Infrastructure-level gateway governance for agent traffic

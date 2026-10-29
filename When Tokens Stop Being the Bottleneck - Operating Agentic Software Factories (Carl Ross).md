@@ -1,11 +1,11 @@
 # When Tokens Stop Being the Bottleneck: Operating Agentic Software Factories
 
 > **Speaker**: Carl Ross ([OpenAI](https://openai.com))  
-> **Event**: [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md)  
+> **Event**: [[ContainerDays Singapore 2026]]  
 > **Date & Time**: Tuesday, October 27, 2026 · 12:50 PM – 1:25 PM SGT  
 > **Room**: AIC Theatre  
 > **Core Topics**: Autonomous Software Factories · Asymptotic Token Economics · State Coordination · Deterministic Verification Harnesses · CI/CD Bottlenecks · Multi-Agent Engineering Systems  
-> **Vault Connections**: [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md) • [Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)](./Lessons%20from%20Operating%20an%20Internal%20LLM%20Gateway%20for%20Production%20Agentic%20Applications%20%28Zhong%20Liang%20Ong%20%26%20Yek%20Khan%29.md) • [Taming Agent Sprawl - How We Scale Evals to Keep Up with Agents (Timothy Lin)](./Taming%20Agent%20Sprawl%20-%20How%20We%20Scale%20Evals%20to%20Keep%20Up%20with%20Agents%20%28Timothy%20Lin%29.md) • [Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)](./Securing%20AI%20Coding%20Agents%20with%20Kubernetes%20Sandboxes%20%28Ryan%20Djurovich%29.md) • [Confessions of a Portal Assistant (Yashod Perera)](./Confessions%20of%20a%20Portal%20Assistant%20%28Yashod%20Perera%29.md) • *The Road Under the Harness (Ng Shangru)* • *AI Agent Engineering* • *Designing Agent Fleets*
+> **Vault Connections**: [[ContainerDays Singapore 2026]] • [[Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)]] • [[Taming Agent Sprawl - How We Scale Evals to Keep Up with Agents (Timothy Lin)]] • [[Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)]] • [[Confessions of a Portal Assistant (Yashod Perera)]] • *The Road Under the Harness (Ng Shangru)* • *AI Agent Engineering* • *Designing Agent Fleets*
 
 ---
 
@@ -626,8 +626,8 @@ flowchart LR
 ---
 
 ## 🔗 Related Notes & References
-- [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md) — Conference master agenda and session tracking
-- [Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)](./Lessons%20from%20Operating%20an%20Internal%20LLM%20Gateway%20for%20Production%20Agentic%20Applications%20%28Zhong%20Liang%20Ong%20%26%20Yek%20Khan%29.md) — Loge LLM Gateway architecture at Liftoff Mobile
-- [Taming Agent Sprawl - How We Scale Evals to Keep Up with Agents (Timothy Lin)](./Taming%20Agent%20Sprawl%20-%20How%20We%20Scale%20Evals%20to%20Keep%20Up%20with%20Agents%20%28Timothy%20Lin%29.md) — Resaro 5-layer evaluation harness
-- [Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)](./Securing%20AI%20Coding%20Agents%20with%20Kubernetes%20Sandboxes%20%28Ryan%20Djurovich%29.md) — Kubernetes Sandboxes and ephemeral execution environments
+- [[ContainerDays Singapore 2026]] — Conference master agenda and session tracking
+- [[Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)]] — Loge LLM Gateway architecture at Liftoff Mobile
+- [[Taming Agent Sprawl - How We Scale Evals to Keep Up with Agents (Timothy Lin)]] — Resaro 5-layer evaluation harness
+- [[Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)]] — Kubernetes Sandboxes and ephemeral execution environments
 - *The Road Under the Harness (Ng Shangru)* — Harness engineering and autonomous testing loops

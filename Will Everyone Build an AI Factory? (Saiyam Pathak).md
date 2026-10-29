@@ -1,16 +1,16 @@
 # Will Everyone Build an AI Factory? (Saiyam Pathak)
 
 > **Speaker**: Saiyam Pathak (Head of Developer Relations, vCluster Labs / Loft Labs · CNCF Ambassador · Founder, Kubesimplify)  
-> **Event**: [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md) (ContainerDays & AI Context Track)  
+> **Event**: [[ContainerDays Singapore 2026]] (ContainerDays & AI Context Track)  
 > **Date & Time**: Tuesday, October 27, 2026 · 3:05 PM – 3:40 PM SGT  
 > **Stage**: MainStage  
 > **Subtitle / Hook**: *"Jensen just shipped one in a container."*  
 > **Core Topics**: AI Factories vs Data Centers · NVIDIA DGX Containerized Pods · GPU Orchestration on Kubernetes · Multi-Tenancy with vCluster · GPU Sharing & Virtualization (HAMi & DRA)  
 > **Vault Connections**: 
-> - [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md)
-> - [When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)](./When%20Tokens%20Stop%20Being%20the%20Bottleneck%20-%20Operating%20Agentic%20Software%20Factories%20%28Carl%20Ross%29.md)
-> - [Fireside Chat with Kelsey Hightower & Geet Bhanawat](./Fireside%20Chat%20with%20Kelsey%20Hightower%20%26%20Geet%20Bhanawat.md)
-> - [Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)](./Lessons%20from%20Operating%20an%20Internal%20LLM%20Gateway%20for%20Production%20Agentic%20Applications%20%28Zhong%20Liang%20Ong%20%26%20Yek%20Khan%29.md)
+> - [[ContainerDays Singapore 2026]]
+> - [[When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)]]
+> - [[Fireside Chat with Kelsey Hightower & Geet Bhanawat]]
+> - [[Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)]]
 > - *Working Locally with Open Weight LLMs*
 > - *AI Agent Engineering*
 
@@ -197,7 +197,7 @@ Once the prefabricated container arrives on-site and bring-up finishes on Day 14
 - **The Queue Outside the Door**:
   - **Humans**: Data scientists and ML engineers running ad-hoc Jupyter notebooks and exploratory hyperparameter sweeps.
   - **Traditional Apps**: Web apps, batch processing pipelines, and internal search microservices.
-  - **More and More AI Agents**: Autonomous coding swarms, synthetic evaluators, and reasoning loops consuming millions of tokens 24/7 (as discussed in [When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)](./When%20Tokens%20Stop%20Being%20the%20Bottleneck%20-%20Operating%20Agentic%20Software%20Factories%20%28Carl%20Ross%29.md)).
+  - **More and More AI Agents**: Autonomous coding swarms, synthetic evaluators, and reasoning loops consuming millions of tokens 24/7 (as discussed in [[When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)]]).
 - **The Inevitable Collision**: Without strict multi-tenancy and scheduling boundaries, rogue agent loops or misconfigured batch jobs exhaust GPU VRAM, crash nodes, and starve production user-facing traffic.
 - **The Four Fundamental Questions of Day 15**:
   1. **"Who gets which GPU?"** (Resource allocation, priority scheduling, preemptible batch training vs zero-latency interactive inference, vGPU slicing).
@@ -278,7 +278,7 @@ flowchart TD
   > — **Jensen Huang**, CEO of NVIDIA (*GTC Berlin Keynote*, 21 October 2026)
 - **The Operational Reality**:
   - In an AI factory running continuous autonomous agent loops, static long-lived API tokens or privileged container runtimes invite catastrophic security failure.
-  - Every single agent execution requires an **ephemeral sandbox** with dynamically bounded, least-privilege tool access (connecting directly to [Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)](./Securing%20AI%20Coding%20Agents%20with%20Kubernetes%20Sandboxes%20%28Ryan%20Djurovich%29.md)).
+  - Every single agent execution requires an **ephemeral sandbox** with dynamically bounded, least-privilege tool access (connecting directly to [[Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)]]).
   - **The Two-Tier Isolation Model**:
     1. **Cluster Multi-Tenancy (vCluster)**: Isolates teams, operators, and CRDs at the Kubernetes control plane layer.
     2. **Runtime Containment (Sandbox CRDs / gVisor / microVMs)**: Isolates untrusted agent code execution and dynamic egress at the pod/process layer.
@@ -326,7 +326,7 @@ flowchart LR
 - **The Decoupled Reality**:
   - The **Gateway** routes requests, enforces token rate limits, and audits caller identity.
   - Behind the endpoint, a specialized **tenant inference cluster (vCluster)** auto-scales vLLM, KServe, or Ray pods backed by dedicated GPUs (e.g. 2 GPUs for `chat`) or fractional slices (e.g. 1 GPU slice for `code`).
-- **Direct Vault Synergy**: Completely mirrors the production gateway architecture in [Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)](./Lessons%20from%20Operating%20an%20Internal%20LLM%20Gateway%20for%20Production%20Agentic%20Applications%20%28Zhong%20Liang%20Ong%20%26%20Yek%20Khan%29.md) (Loge) and [Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)](./Securing%20AI%20Coding%20Agents%20with%20Kubernetes%20Sandboxes%20%28Ryan%20Djurovich%29.md) (Agent Router).
+- **Direct Vault Synergy**: Completely mirrors the production gateway architecture in [[Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)]] (Loge) and [[Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)]] (Agent Router).
 
 ### Inside the Inference Cluster: Disaggregated Prefill & Decode (PD Disaggregation)
 Behind each endpoint URL (`chat` or `code`), high-scale serving splits the autoregressive generation pipeline into two decoupled, asymmetric worker pools:
@@ -529,7 +529,7 @@ flowchart LR
 ## 💡 Key Takeaways & Synthesis
 
 1. **Tokens as the Currency of the Future**:
-   - As emphasized by Carl Ross (OpenAI) earlier today in [When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)](./When%20Tokens%20Stop%20Being%20the%20Bottleneck%20-%20Operating%20Agentic%20Software%20Factories%20%28Carl%20Ross%29.md), software delivery is transitioning to continuous autonomous loops. AI factories are the physical engine behind this shift.
+   - As emphasized by Carl Ross (OpenAI) earlier today in [[When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)]], software delivery is transitioning to continuous autonomous loops. AI factories are the physical engine behind this shift.
 2. **Hardware in a Container, Software in a vCluster**:
    - Jensen Huang solved the hardware distribution problem by putting the physical data center into modular ISO containers.
    - The cloud-native community solves the operational distribution problem by putting multi-tenant AI control planes into virtual Kubernetes clusters (**vCluster**).
@@ -540,9 +540,9 @@ flowchart LR
 
 ## 🔗 Related Sessions & Notes
 
-- 🌟 [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md) — Full conference hub, timetable, and attendance tracker
-- 🏭 [When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)](./When%20Tokens%20Stop%20Being%20the%20Bottleneck%20-%20Operating%20Agentic%20Software%20Factories%20%28Carl%20Ross%29.md) — Operating autonomous agent swarms against continuous token output
-- 💬 [Fireside Chat with Kelsey Hightower & Geet Bhanawat](./Fireside%20Chat%20with%20Kelsey%20Hightower%20%26%20Geet%20Bhanawat.md) — Infrastructure as a workload carrier; fixing underlying bottlenecks
-- 🚪 [Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)](./Lessons%20from%20Operating%20an%20Internal%20LLM%20Gateway%20for%20Production%20Agentic%20Applications%20%28Zhong%20Liang%20Ong%20%26%20Yek%20Khan%29.md) — Production model routing and quota enforcement on Kubernetes
-- 🛡️ [Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)](./Securing%20AI%20Coding%20Agents%20with%20Kubernetes%20Sandboxes%20%28Ryan%20Djurovich%29.md) — Kubernetes `Sandbox` CRDs and runtime isolation for agent execution
+- 🌟 [[ContainerDays Singapore 2026]] — Full conference hub, timetable, and attendance tracker
+- 🏭 [[When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)]] — Operating autonomous agent swarms against continuous token output
+- 💬 [[Fireside Chat with Kelsey Hightower & Geet Bhanawat]] — Infrastructure as a workload carrier; fixing underlying bottlenecks
+- 🚪 [[Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)]] — Production model routing and quota enforcement on Kubernetes
+- 🛡️ [[Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)]] — Kubernetes `Sandbox` CRDs and runtime isolation for agent execution
 

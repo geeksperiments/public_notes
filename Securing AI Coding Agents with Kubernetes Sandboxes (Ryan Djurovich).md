@@ -1,11 +1,11 @@
 # Securing AI Coding Agents with Kubernetes Sandboxes
 
 > **Speaker**: Ryan Djurovich (Founder & Engineer @ [Nadrama.com](https://nadrama.com) · Maintainer of upstream `agent-sandbox`)  
-> **Event**: [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md) (AI Context Track)  
+> **Event**: [[ContainerDays Singapore 2026]] (AI Context Track)  
 > **Date & Time**: Tuesday, October 27, 2026 · 10:15 AM – 10:50 AM SGT  
 > **Stage**: AIC Theatre  
 > **Core Topics**: Upstream Kubernetes `Sandbox` CRD · Ephemeral Agent Isolation · Claude Code & Codex in K8s · Credential Injection  
-> **Vault Connections**: [Confessions of a Portal Assistant (Yashod Perera)](./Confessions%20of%20a%20Portal%20Assistant%20%28Yashod%20Perera%29.md) • *AI Agent Engineering* • *Designing Agent Fleets* • *OpenClaw, Cowork and Claude Code Compared* • *The Road Under the Harness (Ng Shangru)*
+> **Vault Connections**: [[Confessions of a Portal Assistant (Yashod Perera)]] • *AI Agent Engineering* • *Designing Agent Fleets* • *OpenClaw, Cowork and Claude Code Compared* • *The Road Under the Harness (Ng Shangru)*
 
 ---
 
@@ -518,6 +518,6 @@ Stack                        time
 ---
 
 ## 🔗 Related Notes & References
-- [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md) — Conference master agenda and session index
-- [Confessions of a Portal Assistant (Yashod Perera)](./Confessions%20of%20a%20Portal%20Assistant%20%28Yashod%20Perera%29.md) — Prior session covering agent blast radius and Claude Code handoff
+- [[ContainerDays Singapore 2026]] — Conference master agenda and session index
+- [[Confessions of a Portal Assistant (Yashod Perera)]] — Prior session covering agent blast radius and Claude Code handoff
 - *OpenClaw, Cowork and Claude Code Compared* — Comparing agent harness environments

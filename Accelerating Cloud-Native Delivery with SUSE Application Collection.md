@@ -1,17 +1,17 @@
 # Accelerating Cloud-Native Delivery with SUSE Application Collection
 
-> **Event**: [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md) (Day 2 · Expo Showcase / Booth Sessions)  
+> **Event**: [[ContainerDays Singapore 2026]] (Day 2 · Expo Showcase / Booth Sessions)  
 > **Date & Time**: Wednesday, October 28, 2026 · Morning (~11:00 SGT)  
 > **Presenter / Host**: **SUSE**  
 > **Location**: **SUSE Booth (Exhibition / Sponsor Showcase)**  
 > **Talk Title**: *"Accelerating Cloud-Native Delivery with SUSE Application Collection"*  
 > **Core Themes**: Secure Software Supply Chain · Curated Application Catalog · SUSE Base Container Images (BCI) · SBOM & SLSA Provenance · Zero-CVE Hardening · Rancher App Catalog Integration  
 > **Vault Connections**:
-> - [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md) — Master conference schedule and session index
-> - [Enterprise Sovereign AI - Building with SUSE AI Factory](./Enterprise%20Sovereign%20AI%20-%20Building%20with%20SUSE%20AI%20Factory.md) — Day 1 SUSE AI Factory sovereign stack & Rancher Prime demo
-> - [Will Everyone Build an AI Factory? (Saiyam Pathak)](./Will%20Everyone%20Build%20an%20AI%20Factory%3F%20%28Saiyam%20Pathak%29.md) — Multi-tenancy and enterprise container packaging
-> - [Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)](./Securing%20AI%20Coding%20Agents%20with%20Kubernetes%20Sandboxes%20%28Ryan%20Djurovich%29.md) — Supply chain security and untrusted runtime isolation
-> - [Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)](./Governing%20the%20Agentic%20Stack%20on%20Kubernetes%20-%20MCP%2C%20A2A%2C%20and%20LLM%20Traffic%20%28Robin%20Cher%29.md) — Infrastructure governance on Kubernetes
+> - [[ContainerDays Singapore 2026]] — Master conference schedule and session index
+> - [[Enterprise Sovereign AI - Building with SUSE AI Factory]] — Day 1 SUSE AI Factory sovereign stack & Rancher Prime demo
+> - [[Will Everyone Build an AI Factory? (Saiyam Pathak)]] — Multi-tenancy and enterprise container packaging
+> - [[Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)]] — Supply chain security and untrusted runtime isolation
+> - [[Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)]] — Infrastructure governance on Kubernetes
 
 ---
 
@@ -134,6 +134,6 @@ sequenceDiagram
 
 ## 🔗 Related Notes & Cross-References
 
-- 🌟 [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md) — Conference schedule, keynote summaries, and session tracking
-- 🦎 [Enterprise Sovereign AI - Building with SUSE AI Factory](./Enterprise%20Sovereign%20AI%20-%20Building%20with%20SUSE%20AI%20Factory.md) — Day 1 SUSE showcase featuring Rancher Prime, NeuVector Prime, and SLES for NVIDIA
-- 🛡️ [Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)](./Governing%20the%20Agentic%20Stack%20on%20Kubernetes%20-%20MCP%2C%20A2A%2C%20and%20LLM%20Traffic%20%28Robin%20Cher%29.md) — Kubernetes governance and security
+- 🌟 [[ContainerDays Singapore 2026]] — Conference schedule, keynote summaries, and session tracking
+- 🦎 [[Enterprise Sovereign AI - Building with SUSE AI Factory]] — Day 1 SUSE showcase featuring Rancher Prime, NeuVector Prime, and SLES for NVIDIA
+- 🛡️ [[Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)]] — Kubernetes governance and security

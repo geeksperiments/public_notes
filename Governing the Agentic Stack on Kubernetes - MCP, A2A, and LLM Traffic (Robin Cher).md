@@ -2,18 +2,18 @@
 
 > **Speaker**: **Robin Cher** (Kong Inc. / ex-VMware Tanzu by Broadcom)  
 > **Contact**: `robin.cher@konghq.com` | [konghq.com](https://konghq.com)  
-> **Event**: [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md) (AI Context Track)  
+> **Event**: [[ContainerDays Singapore 2026]] (AI Context Track)  
 > **Date & Time**: Tuesday, October 27, 2026 · 4:55 PM – 5:30 PM SGT  
 > **Stage / Room**: **Synergies Theatre**  
 > **Title**: *"Governing the Agentic Stack on Kubernetes: A Reference Architecture for MCP, A2A, and LLM Traffic"*  
 > **Core Themes**: Kubernetes Policy Control Plane · Model Context Protocol (MCP) Governance · Agent2Agent (A2A) Routing · Model Gateway Egress · Tool-Level RBAC & Mutual TLS · Sidecar Proxies  
 > **Vault Connections**:
-> - [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md)
+> - [[ContainerDays Singapore 2026]]
 > - *Communication Is Key - Agent Protocols (MCP & A2A)* — Protocol mechanics for MCP and A2A
 > - *Agentic AI Night - Agent Gateways, A2A, & Jev* — Gateway patterns for multi-agent systems
-> - [Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)](./Securing%20AI%20Coding%20Agents%20with%20Kubernetes%20Sandboxes%20%28Ryan%20Djurovich%29.md) — Sandboxing untrusted agent execution
-> - [Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)](./Lessons%20from%20Operating%20an%20Internal%20LLM%20Gateway%20for%20Production%20Agentic%20Applications%20%28Zhong%20Liang%20Ong%20%26%20Yek%20Khan%29.md) — Production model routing and traffic governance
-> - [Stop Shipping Features with AI. Start Shipping AI Operable Products (Khang Toh)](./Stop%20Shipping%20Features%20with%20AI.%20Start%20Shipping%20AI%20Operable%20Products%20%28Khang%20Toh%29.md) — Day-2 operational controls and policy boundaries
+> - [[Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)]] — Sandboxing untrusted agent execution
+> - [[Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)]] — Production model routing and traffic governance
+> - [[Stop Shipping Features with AI. Start Shipping AI Operable Products (Khang Toh)]] — Day-2 operational controls and policy boundaries
 
 ---
 
@@ -578,10 +578,10 @@ sequenceDiagram
 
 ## 🔗 Related Notes & Cross-References
 
-- 🌟 [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md) — Conference schedule and session index
+- 🌟 [[ContainerDays Singapore 2026]] — Conference schedule and session index
 - 🌐 *Communication Is Key - Agent Protocols (MCP & A2A)* — Deep dive into MCP and A2A protocol specifications
-- 🚦 [Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)](./Lessons%20from%20Operating%20an%20Internal%20LLM%20Gateway%20for%20Production%20Agentic%20Applications%20%28Zhong%20Liang%20Ong%20%26%20Yek%20Khan%29.md) — Gateway token budgets and resilience
-- 🛡️ [Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)](./Securing%20AI%20Coding%20Agents%20with%20Kubernetes%20Sandboxes%20%28Ryan%20Djurovich%29.md) — Sandboxing tool execution on Kubernetes
-- 🏭 [Stop Shipping Features with AI. Start Shipping AI Operable Products (Khang Toh)](./Stop%20Shipping%20Features%20with%20AI.%20Start%20Shipping%20AI%20Operable%20Products%20%28Khang%20Toh%29.md) — Product operability and policy boundaries
+- 🚦 [[Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)]] — Gateway token budgets and resilience
+- 🛡️ [[Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)]] — Sandboxing tool execution on Kubernetes
+- 🏭 [[Stop Shipping Features with AI. Start Shipping AI Operable Products (Khang Toh)]] — Product operability and policy boundaries
 - 💬 *Agentic AI Night - Agent Gateways, A2A, & Jev* — Agent gateway patterns and A2A communication
 

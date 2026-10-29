@@ -1,11 +1,11 @@
 # Confessions of a Portal Assistant: Hard Lessons from Shipping an LLM into a Developer Platform
 
 > **Speaker**: Yashod Perera (Maintainer @ OpenChoreo / CNCF Sandbox · WSO2 LLC)  
-> **Event**: [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md)  
+> **Event**: [[ContainerDays Singapore 2026]]  
 > **Date & Time**: Tuesday, October 27, 2026 · 9:30 AM – 10:05 AM SGT  
 > **Stage**: CDS Theatre  
 > **Platform/Project**: [OpenChoreo](https://github.com/openchoreo) (CNCF Sandbox developer platform for Kubernetes)  
-> **Vault Connections**: *The Road Under the Harness (Ng Shangru)* • [Shipping Reliable AI Agents - Building with Langfuse and ClickHouse (Max Deichmann)](./Shipping%20Reliable%20AI%20Agents%20-%20Building%20with%20Langfuse%20and%20ClickHouse%20%28Max%20Deichmann%29.md) • *Do You Trust Your AI - Beyond the Vibes at SGInnovate* • *AI Agent Engineering* • *Trace It, Store It, Ship It - LLM Observability at GovTech SG*
+> **Vault Connections**: *The Road Under the Harness (Ng Shangru)* • [[Shipping Reliable AI Agents - Building with Langfuse and ClickHouse (Max Deichmann)]] • *Do You Trust Your AI - Beyond the Vibes at SGInnovate* • *AI Agent Engineering* • *Trace It, Store It, Ship It - LLM Observability at GovTech SG*
 
 ---
 
@@ -557,6 +557,6 @@ flowchart TD
 ---
 
 ## 🔗 Related Notes & References
-- [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md) — Master conference agenda and session log
+- [[ContainerDays Singapore 2026]] — Master conference agenda and session log
 - *Do You Trust Your AI - Beyond the Vibes at SGInnovate* — Reliability and evals in production AI
-- [Shipping Reliable AI Agents - Building with Langfuse and ClickHouse (Max Deichmann)](./Shipping%20Reliable%20AI%20Agents%20-%20Building%20with%20Langfuse%20and%20ClickHouse%20%28Max%20Deichmann%29.md) — Tracing and evals for complex agent loops
+- [[Shipping Reliable AI Agents - Building with Langfuse and ClickHouse (Max Deichmann)]] — Tracing and evals for complex agent loops

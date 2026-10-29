@@ -4,11 +4,11 @@
 > - **Kelsey Hightower** (Distinguished Engineer & Developer Advocate)
 > - **Geet Bhanawat** (Chief AI, Data and Analytics Officer, Singtel)
 > **Moderator**: **James Kok** (Strategic Partnerships AI Innovation, AI Singapore)  
-> **Event**: [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md)  
+> **Event**: [[ContainerDays Singapore 2026]]  
 > **Date & Time**: Tuesday, October 27, 2026 · 2:25 PM – 2:55 PM SGT  
 > **Stage**: MainStage  
 > **Core Topics**: Enterprise AI Transformation · Cloud-Native to AI-Native Evolution · Developer Experience & Pragmatism · Real-World Agent Adoption · Platform Engineering Meets AI  
-> **Vault Connections**: [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md) • *AI Agent Engineering* • *Designing Agent Fleets* • [When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)](./When%20Tokens%20Stop%20Being%20the%20Bottleneck%20-%20Operating%20Agentic%20Software%20Factories%20%28Carl%20Ross%29.md) • [Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)](./Lessons%20from%20Operating%20an%20Internal%20LLM%20Gateway%20for%20Production%20Agentic%20Applications%20%28Zhong%20Liang%20Ong%20%26%20Yek%20Khan%29.md)
+> **Vault Connections**: [[ContainerDays Singapore 2026]] • *AI Agent Engineering* • *Designing Agent Fleets* • [[When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)]] • [[Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)]]
 
 ---
 
@@ -53,7 +53,7 @@
 - **Geet's Three Enterprise AI Mandates**:
   1. **Standardize the Technology Stack**:
      - Establish a single, paved-road enterprise platform for AI workloads rather than letting 50 teams reinvent model access.
-     - Centralize gateway routing, privacy boundaries, token governance, and telemetry (aligning directly with [Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)](./Lessons%20from%20Operating%20an%20Internal%20LLM%20Gateway%20for%20Production%20Agentic%20Applications%20%28Zhong%20Liang%20Ong%20%26%20Yek%20Khan%29.md)).
+     - Centralize gateway routing, privacy boundaries, token governance, and telemetry (aligning directly with [[Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)]]).
   2. **Drive Aggressive Component Reusability**:
      - Treat prompt templates, fine-tuned adapters, agent tools, vector indexing pipelines, and evaluation harnesses as reusable enterprise assets.
      - Teams solve a problem once (e.g., customer churn prediction, network fault triage) and publish reusable modules for other business units.
@@ -141,9 +141,9 @@
   2. **Operational Capability (Day-2 Engineering)**:
      - Building a prototype agent in a Jupyter notebook takes an afternoon; operating an autonomous agentic fleet in production takes enterprise-grade engineering.
      - True operational capability requires:
-       - **Automated Evaluation Pipelines**: Tracking drift and behavioral regressions (linking to [Taming Agent Sprawl - How We Scale Evals to Keep Up with Agents (Timothy Lin)](./Taming%20Agent%20Sprawl%20-%20How%20We%20Scale%20Evals%20to%20Keep%20Up%20with%20Agents%20%28Timothy%20Lin%29.md)).
-       - **Hardened Execution Sandboxes**: Containing untrusted code execution (linking to [Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)](./Securing%20AI%20Coding%20Agents%20with%20Kubernetes%20Sandboxes%20%28Ryan%20Djurovich%29.md)).
-       - **Cost & Traffic Routing Gateways**: Centralized policy enforcement (linking to [Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)](./Lessons%20from%20Operating%20an%20Internal%20LLM%20Gateway%20for%20Production%20Agentic%20Applications%20%28Zhong%20Liang%20Ong%20%26%20Yek%20Khan%29.md)).
+       - **Automated Evaluation Pipelines**: Tracking drift and behavioral regressions (linking to [[Taming Agent Sprawl - How We Scale Evals to Keep Up with Agents (Timothy Lin)]]).
+       - **Hardened Execution Sandboxes**: Containing untrusted code execution (linking to [[Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)]]).
+       - **Cost & Traffic Routing Gateways**: Centralized policy enforcement (linking to [[Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)]]).
        - **Incident Response & Auditability**: Knowing exactly why an agent took an action and having the tooling to roll it back.
 
 ---
@@ -179,7 +179,7 @@
     - *Cost per Successful Outcome*: Are you spending $0.05 in token inference to save $15 in manual operations, or $20 in tokens to save $0.50?
     - *Error & Regression Budget*: What is the acceptable failure rate before an automated circuit breaker trips?
 - **Enabling Deterministic Evaluation**:
-  - Defining success criteria upfront is what allows engineering teams to construct automated test harnesses and evaluation suites (linking directly to [Taming Agent Sprawl - How We Scale Evals to Keep Up with Agents (Timothy Lin)](./Taming%20Agent%20Sprawl%20-%20How%20We%20Scale%20Evals%20to%20Keep%20Up%20with%20Agents%20%28Timothy%20Lin%29.md)). If you can't state the pass condition in code, an agent cannot be safely automated.
+  - Defining success criteria upfront is what allows engineering teams to construct automated test harnesses and evaluation suites (linking directly to [[Taming Agent Sprawl - How We Scale Evals to Keep Up with Agents (Timothy Lin)]]). If you can't state the pass condition in code, an agent cannot be safely automated.
 
 ---
 
@@ -499,7 +499,7 @@ flowchart TD
 ---
 
 ## 🔗 Related Notes & References
-- [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md) — Conference master agenda and session tracking
-- [When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)](./When%20Tokens%20Stop%20Being%20the%20Bottleneck%20-%20Operating%20Agentic%20Software%20Factories%20%28Carl%20Ross%29.md) — OpenAI autonomous software factories
-- [Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)](./Lessons%20from%20Operating%20an%20Internal%20LLM%20Gateway%20for%20Production%20Agentic%20Applications%20%28Zhong%20Liang%20Ong%20%26%20Yek%20Khan%29.md) — Production model gateways
-- [Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)](./Securing%20AI%20Coding%20Agents%20with%20Kubernetes%20Sandboxes%20%28Ryan%20Djurovich%29.md) — Sandboxing AI agents on Kubernetes
+- [[ContainerDays Singapore 2026]] — Conference master agenda and session tracking
+- [[When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)]] — OpenAI autonomous software factories
+- [[Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)]] — Production model gateways
+- [[Securing AI Coding Agents with Kubernetes Sandboxes (Ryan Djurovich)]] — Sandboxing AI agents on Kubernetes

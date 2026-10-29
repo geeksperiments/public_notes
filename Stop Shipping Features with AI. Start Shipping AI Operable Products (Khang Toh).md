@@ -1,17 +1,17 @@
 # Stop Shipping Features with AI. Start Shipping AI Operable Products (Khang Toh)
 
 > **Speaker**: **Khang Toh**  
-> **Event**: [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md) (ContainerDays Track)  
+> **Event**: [[ContainerDays Singapore 2026]] (ContainerDays Track)  
 > **Date & Time**: Tuesday, October 27, 2026 · 4:10 PM – 4:45 PM SGT  
 > **Stage / Room**: **CDS Theatre**  
 > **Title**: *"Stop Shipping Features with AI. Start Shipping AI Operable Products"*  
 > **Core Themes**: Day-2 Operability · The AI Code Velocity Trap · Dual-User Operability (Humans & Autonomous Agents) · Self-Healing Telemetry · Reconciliation Loops Over Code Generation  
 > **Vault Connections**:
-> - [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md)
-> - [When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)](./When%20Tokens%20Stop%20Being%20the%20Bottleneck%20-%20Operating%20Agentic%20Software%20Factories%20%28Carl%20Ross%29.md) — Software factories creating immense code velocity that outpaces operations
-> - [Fireside Chat with Kelsey Hightower & Geet Bhanawat](./Fireside%20Chat%20with%20Kelsey%20Hightower%20%26%20Geet%20Bhanawat.md) — *"AI is just another workload"*; addressing the real operational bottlenecks
-> - [Shipping Reliable AI Agents - Building with Langfuse and ClickHouse (Max Deichmann)](./Shipping%20Reliable%20AI%20Agents%20-%20Building%20with%20Langfuse%20and%20ClickHouse%20%28Max%20Deichmann%29.md) — Observability, trace analytics, and agent reliability
-> - [AI-Generated Code == Code You Can Trust - AISG & Sonar at EDB](./AI-Generated%20Code%20%3D%3D%20Code%20You%20Can%20Trust%20-%20AISG%20%26%20Sonar%20at%20EDB.md) — Static analysis and trust boundaries for AI code
+> - [[ContainerDays Singapore 2026]]
+> - [[When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)]] — Software factories creating immense code velocity that outpaces operations
+> - [[Fireside Chat with Kelsey Hightower & Geet Bhanawat]] — *"AI is just another workload"*; addressing the real operational bottlenecks
+> - [[Shipping Reliable AI Agents - Building with Langfuse and ClickHouse (Max Deichmann)]] — Observability, trace analytics, and agent reliability
+> - [[AI-Generated Code == Code You Can Trust - AISG & Sonar at EDB]] — Static analysis and trust boundaries for AI code
 > - *AI Agent Engineering*
 
 ---
@@ -168,7 +168,7 @@
 
 ## 📌 Context & Problem Statement: The AI Velocity Trap
 
-With modern LLM coding agents, copilots, and software factories (like those discussed in [When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)](./When%20Tokens%20Stop%20Being%20the%20Bottleneck%20-%20Operating%20Agentic%20Software%20Factories%20%28Carl%20Ross%29.md)), teams can generate features at an unprecedented rate. However, **shipping code is not the same as shipping an operable product**.
+With modern LLM coding agents, copilots, and software factories (like those discussed in [[When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)]]), teams can generate features at an unprecedented rate. However, **shipping code is not the same as shipping an operable product**.
 
 ```mermaid
 flowchart LR
@@ -261,7 +261,7 @@ flowchart LR
    - Shipping features with AI is easy.
    - Operating those features requires Day-2 operational primitives: semantic health checks, structured audit trails, blast-radius containment, and self-healing reconciliation loops.
 3. **Connecting to Kelsey Hightower's Law**:
-   - Directly echoes Kelsey's statement from earlier today ([Fireside Chat with Kelsey Hightower & Geet Bhanawat](./Fireside%20Chat%20with%20Kelsey%20Hightower%20%26%20Geet%20Bhanawat.md)): *"Technology is not going to save you... fix the underlying thing. AI is just another workload."*
+   - Directly echoes Kelsey's statement from earlier today ([[Fireside Chat with Kelsey Hightower & Geet Bhanawat]]): *"Technology is not going to save you... fix the underlying thing. AI is just another workload."*
 
 ---
 
@@ -300,7 +300,7 @@ flowchart TD
    - Prevents unauthenticated rogue agents from assuming unauthorized privileges or accessing sensitive repositories.
 3. **FGateway (Model Routing & Cost Attribution)**:
    - Centralizes enterprise model access with intelligent routing, latency budgeting, and fallback logic.
-   - Attributes token usage, operational costs, and audit logs directly to specific teams, projects, and autonomous agent jobs (connecting directly to [Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)](./Lessons%20from%20Operating%20an%20Internal%20LLM%20Gateway%20for%20Production%20Agentic%20Applications%20%28Zhong%20Liang%20Ong%20%26%20Yek%20Khan%29.md)).
+   - Attributes token usage, operational costs, and audit logs directly to specific teams, projects, and autonomous agent jobs (connecting directly to [[Lessons from Operating an Internal LLM Gateway for Production Agentic Applications (Zhong Liang Ong & Yek Khan)]]).
 
 ---
 
@@ -395,7 +395,7 @@ flowchart LR
 
 ## 🏭 Where Does Your Factory Lane End? The Missing Layer
 
-Everyone in 2026 is racing to build the upstream factory that delivers software (connecting directly to [When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)](./When%20Tokens%20Stop%20Being%20the%20Bottleneck%20-%20Operating%20Agentic%20Software%20Factories%20%28Carl%20Ross%29.md)):
+Everyone in 2026 is racing to build the upstream factory that delivers software (connecting directly to [[When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)]]):
 
 ```mermaid
 flowchart LR
@@ -849,7 +849,7 @@ flowchart TD
 
 ## 🔗 Related Notes & Cross-References
 
-- 🌟 [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md) — Master conference schedule and session index
-- 🏭 [When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)](./When%20Tokens%20Stop%20Being%20the%20Bottleneck%20-%20Operating%20Agentic%20Software%20Factories%20%28Carl%20Ross%29.md) — The upstream software factory generating high-velocity code
-- 💬 [Fireside Chat with Kelsey Hightower & Geet Bhanawat](./Fireside%20Chat%20with%20Kelsey%20Hightower%20%26%20Geet%20Bhanawat.md) — Kelsey on finding the real bottleneck and fixing the underlying system
-- 📊 [Shipping Reliable AI Agents - Building with Langfuse and ClickHouse (Max Deichmann)](./Shipping%20Reliable%20AI%20Agents%20-%20Building%20with%20Langfuse%20and%20ClickHouse%20%28Max%20Deichmann%29.md) — Deep agent tracing and observability
+- 🌟 [[ContainerDays Singapore 2026]] — Master conference schedule and session index
+- 🏭 [[When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)]] — The upstream software factory generating high-velocity code
+- 💬 [[Fireside Chat with Kelsey Hightower & Geet Bhanawat]] — Kelsey on finding the real bottleneck and fixing the underlying system
+- 📊 [[Shipping Reliable AI Agents - Building with Langfuse and ClickHouse (Max Deichmann)]] — Deep agent tracing and observability

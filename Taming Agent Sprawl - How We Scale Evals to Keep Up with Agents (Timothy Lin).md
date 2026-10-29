@@ -1,12 +1,12 @@
 # Taming Agent Sprawl: How We Scale Evals to Keep Up with Agents
 
 > **Speaker**: Timothy Lin (Product Lead @ [Resaro](https://resaro.ai))  
-> **Event**: [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md)  
+> **Event**: [[ContainerDays Singapore 2026]]  
 > **Date & Time**: Tuesday, October 27, 2026 · 11:20 AM – 12:20 PM SGT  
 > **Room**: Workshop Room  
 > **Platform/Product**: Approved Intelligence Platform™ (Resaro)  
 > **Core Topics**: Scaling Agent Evaluations · Trace-Derived Topology · Synthetic Scenario Generation · Multi-Tool Multipliers · Production Quality Gates  
-> **Vault Connections**: [Shipping Reliable AI Agents - Building with Langfuse and ClickHouse (Max Deichmann)](./Shipping%20Reliable%20AI%20Agents%20-%20Building%20with%20Langfuse%20and%20ClickHouse%20%28Max%20Deichmann%29.md) • *Do You Trust Your AI - Beyond the Vibes at SGInnovate* • [Confessions of a Portal Assistant (Yashod Perera)](./Confessions%20of%20a%20Portal%20Assistant%20%28Yashod%20Perera%29.md) • *Trace It, Store It, Ship It - LLM Observability at GovTech SG* • *Designing Agent Fleets*
+> **Vault Connections**: [[Shipping Reliable AI Agents - Building with Langfuse and ClickHouse (Max Deichmann)]] • *Do You Trust Your AI - Beyond the Vibes at SGInnovate* • [[Confessions of a Portal Assistant (Yashod Perera)]] • *Trace It, Store It, Ship It - LLM Observability at GovTech SG* • *Designing Agent Fleets*
 
 ---
 
@@ -692,7 +692,7 @@ A breakthrough operational pattern for enterprises running hundreds of agents:
 >    - Teams reflexively reach for frontier flagship models for every task, incurring massive costs. Smaller, high-speed models (e.g., **GPT-4o mini, Claude Haiku**) are often more than good enough for specialized subagents, routers, and evaluators.
 >    - **It's About Providing the Right Context**: Model accuracy on agentic tasks is primarily governed by context cleanliness, tight tool schemas, and unambiguous instructions. A small model with clean context and strict boundary checks consistently outperforms a giant frontier model buried in noisy prompts.
 > 3. **Cross-Talk Synthesis**:
->    - Directly reinforces [Yashod Perera's advice](./Confessions%20of%20a%20Portal%20Assistant%20%28Yashod%20Perera%29.md) to use an **AI Gateway** for global spend governance and switch from JSON to Markdown context (-64% token reduction).
+>    - Directly reinforces [[Confessions of a Portal Assistant (Yashod Perera)|Yashod Perera's advice]] to use an **AI Gateway** for global spend governance and switch from JSON to Markdown context (-64% token reduction).
 
 ---
 
@@ -781,7 +781,7 @@ In production agent deployments, the CI/CD pipeline must fail the build if any o
 ---
 
 ## 🔗 Related Notes & References
-- [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md) — Conference master agenda and session index
-- [Confessions of a Portal Assistant (Yashod Perera)](./Confessions%20of%20a%20Portal%20Assistant%20%28Yashod%20Perera%29.md) — Trajectory evaluations and the dogfood embarrassment list
-- [Shipping Reliable AI Agents - Building with Langfuse and ClickHouse (Max Deichmann)](./Shipping%20Reliable%20AI%20Agents%20-%20Building%20with%20Langfuse%20and%20ClickHouse%20%28Max%20Deichmann%29.md) — Tracing and evals for complex agent loops
+- [[ContainerDays Singapore 2026]] — Conference master agenda and session index
+- [[Confessions of a Portal Assistant (Yashod Perera)]] — Trajectory evaluations and the dogfood embarrassment list
+- [[Shipping Reliable AI Agents - Building with Langfuse and ClickHouse (Max Deichmann)]] — Tracing and evals for complex agent loops
 - *Do You Trust Your AI - Beyond the Vibes at SGInnovate* — Production evaluation and hallucination benchmarking

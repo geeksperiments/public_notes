@@ -1,19 +1,19 @@
 # Building a High-Performance Token Factory: Turning Kubernetes GPU Clusters into Production-Grade, SLA-Backed Token Generation Services (Jerry Chen)
 
 > **Speaker**: **Jerry Chen** (Regional CTO, **DaoCloud** / **d.run**)  
-> **Event**: [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md) (Day 2 · Afternoon Session)  
+> **Event**: [[ContainerDays Singapore 2026]] (Day 2 · Afternoon Session)  
 > **Date & Time**: Wednesday, October 28, 2026 · ~15:25 – 16:00 SGT  
 > **Stage / Room**: **ContainerDays & AI Context Main Track**  
 > **Title**: *"Building a High-Performance Token Factory: with cloud-native AI technologies — turning Kubernetes GPU clusters into production-grade, SLA-backed token generation services"*  
 > **Affiliations**: **DaoCloud** · **d.run**  
 > **Core Themes**: Cloud-Native AI · Kubernetes GPU Cluster Orchestration · Token Factory Architecture · Production-Grade Inference Serving · SLA-Backed LLM Traffic · GPU Sharing & Virtualization (HAMi/vCUDA) · Dynamic Resource Allocation (DRA)  
 > **Vault Connections**:
-> - [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md) — Master conference schedule and session index
-> - [Serve Your First LLM, Then Watch It Break at Scale (Mumshad Mannambeth)](./Serve%20Your%20First%20LLM%2C%20Then%20Watch%20It%20Break%20at%20Scale%20%28Mumshad%20Mannambeth%29.md) — vLLM bottlenecks, safetensors loading, KV cache management, llm-d routing
-> - [Will Everyone Build an AI Factory? (Saiyam Pathak)](./Will%20Everyone%20Build%20an%20AI%20Factory%3F%20%28Saiyam%20Pathak%29.md) — Day 1 keynote on AI Factories and cloud-native infrastructure
-> - [Enterprise Sovereign AI - Building with SUSE AI Factory](./Enterprise%20Sovereign%20AI%20-%20Building%20with%20SUSE%20AI%20Factory.md) — Sovereign AI factories, validated stacks, vLLM on Kubernetes
-> - [When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)](./When%20Tokens%20Stop%20Being%20the%20Bottleneck%20-%20Operating%20Agentic%20Software%20Factories%20%28Carl%20Ross%29.md) — Token consumption economics and agent factory loops
-> - [Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)](./Governing%20the%20Agentic%20Stack%20on%20Kubernetes%20-%20MCP%2C%20A2A%2C%20and%20LLM%20Traffic%20%28Robin%20Cher%29.md) — Infrastructure-level LLM gateway routing and latency budgets
+> - [[ContainerDays Singapore 2026]] — Master conference schedule and session index
+> - [[Serve Your First LLM, Then Watch It Break at Scale (Mumshad Mannambeth)]] — vLLM bottlenecks, safetensors loading, KV cache management, llm-d routing
+> - [[Will Everyone Build an AI Factory? (Saiyam Pathak)]] — Day 1 keynote on AI Factories and cloud-native infrastructure
+> - [[Enterprise Sovereign AI - Building with SUSE AI Factory]] — Sovereign AI factories, validated stacks, vLLM on Kubernetes
+> - [[When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)]] — Token consumption economics and agent factory loops
+> - [[Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)]] — Infrastructure-level LLM gateway routing and latency budgets
 
 ---
 
@@ -728,10 +728,10 @@ flowchart LR
 
 ## 🔗 Related Notes & Cross-References
 
-- 🌟 [ContainerDays Singapore 2026](./ContainerDays%20Singapore%202026.md) — Master conference schedule and session index
-- 🛠️ [Serve Your First LLM, Then Watch It Break at Scale (Mumshad Mannambeth)](./Serve%20Your%20First%20LLM%2C%20Then%20Watch%20It%20Break%20at%20Scale%20%28Mumshad%20Mannambeth%29.md) — Scaling LLM serving on Kubernetes, safetensors, and vLLM bottlenecks
-- 🏭 [Will Everyone Build an AI Factory? (Saiyam Pathak)](./Will%20Everyone%20Build%20an%20AI%20Factory%3F%20%28Saiyam%20Pathak%29.md) — The architectural shift toward AI factories
-- 🚀 [Enterprise Sovereign AI - Building with SUSE AI Factory](./Enterprise%20Sovereign%20AI%20-%20Building%20with%20SUSE%20AI%20Factory.md) — Sovereign, enterprise-grade AI clusters
-- 🧭 [Your Next Platform User Isn't Human - Building an AI-Native Developer Platform (Yashod Perera)](./Your%20Next%20Platform%20User%20Isn%27t%20Human%20-%20Building%20an%20AI-Native%20Developer%20Platform%20%28Yashod%20Perera%29.md) — AI-native platform architecture
-- 🚦 [Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)](./Governing%20the%20Agentic%20Stack%20on%20Kubernetes%20-%20MCP%2C%20A2A%2C%20and%20LLM%20Traffic%20%28Robin%20Cher%29.md) — Infrastructure-level LLM gateway routing and latency budgets
-- 🏎️ [When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)](./When%20Tokens%20Stop%20Being%20the%20Bottleneck%20-%20Operating%20Agentic%20Software%20Factories%20%28Carl%20Ross%29.md) — Token consumption economics and agent factory loops
+- 🌟 [[ContainerDays Singapore 2026]] — Master conference schedule and session index
+- 🛠️ [[Serve Your First LLM, Then Watch It Break at Scale (Mumshad Mannambeth)]] — Scaling LLM serving on Kubernetes, safetensors, and vLLM bottlenecks
+- 🏭 [[Will Everyone Build an AI Factory? (Saiyam Pathak)]] — The architectural shift toward AI factories
+- 🚀 [[Enterprise Sovereign AI - Building with SUSE AI Factory]] — Sovereign, enterprise-grade AI clusters
+- 🧭 [[Your Next Platform User Isn't Human - Building an AI-Native Developer Platform (Yashod Perera)]] — AI-native platform architecture
+- 🚦 [[Governing the Agentic Stack on Kubernetes - MCP, A2A, and LLM Traffic (Robin Cher)]] — Infrastructure-level LLM gateway routing and latency budgets
+- 🏎️ [[When Tokens Stop Being the Bottleneck - Operating Agentic Software Factories (Carl Ross)]] — Token consumption economics and agent factory loops
