@@ -5,7 +5,7 @@
 > **Event URL**: [ContainerDays Singapore 2026](https://www.containerdays.io/containerdays-singapore-2026/) • [Full Agenda](https://www.containerdays.io/containerdays-singapore-2026/agenda/)  
 > **Organizers**: Dockland Media Group, Supported by Singapore Exhibition & Convention Bureau (SECB)  
 > **Keynote Speakers**: Kelsey Hightower, Saiyam Pathak (vCluster), Carl Ross (OpenAI), Jerry Chen (DaoCloud / d.run), Yashod Perera (WSO2)  
-> **Public Vault Connections**: [[AI-Generated Code == Code You Can Trust - AISG & Sonar at EDB|AI-Generated Code == Code You Can Trust (AISG & Sonar)]] • [Shipping Reliable AI Agents (Langfuse & ClickHouse)](./Shipping%20Reliable%20AI%20Agents%20-%20Building%20with%20Langfuse%20and%20ClickHouse%20(Max%20Deichmann).md) • [[Build Agents with Google Agent CLI]]
+> **Public Vault Connections**: [[AI-Generated Code == Code You Can Trust - AISG & Sonar at EDB|AI-Generated Code == Code You Can Trust (AISG & Sonar)]] • [[Shipping Reliable AI Agents - Building with Langfuse and ClickHouse (Max Deichmann)|Shipping Reliable AI Agents (Langfuse & ClickHouse)]] • [[Build Agents with Google Agent CLI]]
 
 ---
 
