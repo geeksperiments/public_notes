@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#475569"/>
+    </marker>
+    <marker id="arrow-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b45309"/>
+    </marker>
+  </defs>
+  <style>
+    .box { fill:#ffffff; stroke:#475569; stroke-width:2; rx:10; }
+    .box-accent { fill:#fffbeb; stroke:#b45309; stroke-width:2; rx:10; }
+    .label { font-size:16px; font-weight:600; fill:#1e293b; text-anchor:middle; }
+    .sub { font-size:12.5px; fill:#64748b; text-anchor:middle; }
+    .flow { stroke:#475569; stroke-width:2; fill:none; marker-end:url(#arrow); }
+    .flow-accent { stroke:#b45309; stroke-width:2.5; fill:none; marker-end:url(#arrow-accent); }
+    .zone-label { font-size:13px; font-weight:700; fill:#b45309; text-anchor:middle; letter-spacing:0.06em; }
+    .title { font-size:18px; font-weight:700; fill:#0f172a; text-anchor:middle; }
+  </style>
+
+  <text class="title" x="480" y="32">The software factory is a loop — agents change who builds, not the loop</text>
+
+  <!-- main loop boxes -->
+  <rect class="box" x="40"  y="150" width="150" height="86"/>
+  <text class="label" x="115" y="187">Tracker</text>
+  <text class="sub" x="115" y="209">what to build</text>
+
+  <rect class="box-accent" x="250" y="150" width="170" height="86"/>
+  <text class="label" x="335" y="187">Agent builds</text>
+  <text class="sub" x="335" y="209">the thing</text>
+
+  <rect class="box" x="480" y="150" width="180" height="86"/>
+  <text class="label" x="570" y="187">Review, tests, CI</text>
+  <text class="sub" x="570" y="209">agentic back pressure</text>
+
+  <rect class="box" x="720" y="150" width="170" height="86"/>
+  <text class="label" x="805" y="187">Canary + flags</text>
+  <text class="sub" x="805" y="209">measured rollout</text>
+
+  <!-- flow arrows -->
+  <path class="flow" d="M190,193 H250"/>
+  <path class="flow" d="M420,193 H480"/>
+  <path class="flow" d="M660,193 H720"/>
+
+  <!-- users -->
+  <rect class="box" x="720" y="300" width="170" height="70"/>
+  <text class="label" x="805" y="332">Users</text>
+  <text class="sub" x="805" y="352">complain + request</text>
+
+  <path class="flow" d="M805,236 V300"/>
+
+  <!-- feedback to tracker -->
+  <path class="flow" d="M720,335 H115 V236"/>
+
+  <!-- monitoring to tracker -->
+  <rect class="box" x="420" y="300" width="180" height="70"/>
+  <text class="label" x="510" y="332">Monitoring</text>
+  <text class="sub" x="510" y="352">incidents at 3am</text>
+  <path class="flow" d="M805,370 C805,398 510,398 510,370"/>
+  <path class="flow" d="M420,335 H300 C240,335 115,300 115,236"/>
+
+  <!-- pressure annotations -->
+  <text class="zone-label" x="197" y="120">FORWARD PRESSURE</text>
+  <text class="sub" x="197" y="138">work starts automatically</text>
+  <path class="flow-accent" d="M150,108 C150,80 260,80 310,140"/>
+
+  <text class="zone-label" x="570" y="120">BACK PRESSURE</text>
+  <text class="sub" x="570" y="138">quality keeps pace with speed</text>
+  <path class="flow-accent" d="M570,108 V140"/>
+</svg>
