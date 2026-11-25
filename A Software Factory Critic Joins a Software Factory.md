@@ -16,7 +16,7 @@
 
 ---
 
-![Dex Horthy at AI Engineer Code Summit, "No More Slop!" talk thumbnail](Attachments/dex-horthy-12-rules-no-more-slop-talk-thumbnail.jpg)
+![Dex Horthy's talk thumbnail](https://i.ytimg.com/vi/-NFMsM2y0Vk/maxresdefault.jpg)
 
 > Talk thumbnail, via YouTube.
 
