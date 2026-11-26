@@ -1,13 +1,10 @@
 # 12 Factor Factories (Dex Horthy)
 
-> **Status:** Research note, draft for review
-> **Format:** Readable summary of the talk, with references for going deeper
-
 ## Overview
 
-At AI Engineer Code Summit, Dex Horthy gave a talk titled "12 Rules for a Software Factory That Doesn't Ship Slop" ([YouTube](https://youtu.be/-NFMsM2y0Vk), ~20 min, uploaded November 2026). The title "started as a joke title, but then everyone started calling it that" ([0:12](https://youtu.be/-NFMsM2y0Vk?t=12)). The obvious reference is the classic [12-Factor App](https://12factor.net/) — that connection is this note's inference; he never names the original in the talk. What he does say he's after is a distillation: which practices of building with coding agents are timeless, and which are hype ([5:09](https://youtu.be/-NFMsM2y0Vk?t=309)).
+At AI Engineer Code Summit, Dex Horthy gave a talk titled "12 Rules for a Software Factory That Doesn't Ship Slop" ([YouTube](https://youtu.be/-NFMsM2y0Vk), ~20 min, uploaded November 2026). The title "started as a joke title, but then everyone started calling it that" ([0:12](https://youtu.be/-NFMsM2y0Vk?t=12)). What he says he is after is a distillation: which practices of building with coding agents are timeless, and which are hype ([5:09](https://youtu.be/-NFMsM2y0Vk?t=309)).
 
-A note on sourcing: this summary is paraphrased from an automatically generated transcript of the recording, checked against the talk's official slide deck. The rule numbering follows the slides, and the screenshots below come from the deck. Every claim about what the talk says carries a timestamp link back to the video. Where this note adds interpretation beyond what Dex says, it is marked as such. One caveat: the transcript is machine-generated, so product and model names in it may be approximate (for example, it renders what is almost certainly "PostHog" as "post hoc").
+Timestamps link to the moment in the talk where each point comes up. The summary is paraphrased, and the practice numbering and screenshots follow the talk's slides.
 
 ## The frame: a factory is a loop, not a robot
 
@@ -28,7 +25,7 @@ The useful refinement of the "loops" buzzword is a pressure pair ([3:53](https:/
 
 ## The twelve practices
 
-The talk's second act is a list of practices — he notes it has grown from nine to twelve since he first gave it ([5:35](https://youtu.be/-NFMsM2y0Vk?t=335)). The four-theme grouping below is this note's organization, not the talk's; he simply runs through them in order.
+The talk's second act is a list of practices — he notes it has grown from nine to twelve since he first gave it ([5:35](https://youtu.be/-NFMsM2y0Vk?t=335)). I've grouped them into four themes below; he runs through them in order.
 
 ### Know what you're up against
 
@@ -58,9 +55,9 @@ The talk's second act is a list of practices — he notes it has grown from nine
 
 **8. Slop is a tool** ([11:57](https://youtu.be/-NFMsM2y0Vk?t=717)). Not all slop is bad. Vibe coding, prototypes, and side projects are legitimate, and not every line of code has to be perfect. If something sits behind a feature flag while you find out whether anyone wants it, polishing it first is wasted effort. His closing frame: slop is bad when it undermines the outcome ([19:06](https://youtu.be/-NFMsM2y0Vk?t=1146)).
 
-**9. Let models experiment** ([12:25](https://youtu.be/-NFMsM2y0Vk?t=745)). Give models a feature-flagging system — PostHog, Statsig, LaunchDarkly (the transcript renders the first as "post hoc") — so they can try stuff, see if it performs better, and make decisions.
+**9. Let models experiment** ([12:25](https://youtu.be/-NFMsM2y0Vk?t=745)). Give models a feature-flagging system — PostHog, Statsig, LaunchDarkly — so they can try stuff, see if it performs better, and make decisions.
 
-**10. Compound over time** ([12:25](https://youtu.be/-NFMsM2y0Vk?t=745)). "Eval everything, learn from past sessions." The talk gives this one a single line; the slide expands it slightly. (An earlier version of this note added a justification here that went beyond the talk; it has been removed.)
+**10. Compound over time** ([12:25](https://youtu.be/-NFMsM2y0Vk?t=745)). "Eval everything, learn from past sessions." It gets a single line in the talk.
 
 ### Own the system
 
@@ -78,9 +75,9 @@ The talk ends with a launch: the [anti-slop manifesto](https://slopmanifesto.com
 
 The manifesto's resolutions read as a statement of what human involvement is *for* ([17:09](https://youtu.be/-NFMsM2y0Vk?t=1029)): own the intent, the taste, and the consequences of what you ship; disclose when an agent wrote something you're passing on, and make sure it's good first ([17:40](https://youtu.be/-NFMsM2y0Vk?t=1060)); push back, kindly, when someone sends you slop ([18:03](https://youtu.be/-NFMsM2y0Vk?t=1083)); and keep reviewing, because there is always alpha in review — agent reviewers, linters, and verifiers are useful but not sufficient, the subset you review depends on the stakes, and if you bring no thinking at all, you get the same output as everyone else ([18:03](https://youtu.be/-NFMsM2y0Vk?t=1083), [18:34](https://youtu.be/-NFMsM2y0Vk?t=1114)).
 
-## Takeaways for a team adopting agents
+## What I'm taking from it
 
-*This section is the note author's synthesis, not the talk's content; each line links the parts of the talk it draws on.*
+These are my own takeaways. Each links to the part of the talk it draws on.
 
 - Treat the factory as a loop with two pressures: feed it automatically, and make sure quality keeps pace with speed ([3:53](https://youtu.be/-NFMsM2y0Vk?t=233), [6:01](https://youtu.be/-NFMsM2y0Vk?t=361)).
 - The benchmark evidence says models are bad at long-horizon codebase stewardship, so keep humans on architecture and taste ([6:26](https://youtu.be/-NFMsM2y0Vk?t=386), [17:40](https://youtu.be/-NFMsM2y0Vk?t=1060)).
@@ -90,11 +87,10 @@ The manifesto's resolutions read as a statement of what human involvement is *fo
 
 ## Sources
 
-- Dex Horthy, "12 Rules for a Software Factory That Doesn't Ship Slop", AI Engineer Code Summit, [video](https://youtu.be/-NFMsM2y0Vk) (uploaded November 2026). This summary was prepared from an automatically generated transcript and checked against the talk's official slide deck; wording is paraphrased, the rule numbering and screenshots follow the slides, and every talk claim carries a timestamp link. Interpretation added by this note is marked inline.
+- Dex Horthy, [12 Rules for a Software Factory That Doesn't Ship Slop](https://youtu.be/-NFMsM2y0Vk), AI Engineer Code Summit
 - Dex Horthy, [Why Software Factories Fail](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md)
-- Factory, [Factory 2.0 / the software factory](https://factory.com/news/software-factory)
-- [SlopCodeBench](https://www.scbench.ai/) — benchmark for evolving a codebase over time
+- Factory, [Factory 2.0: From coding agents to software factories](https://factory.com/news/software-factory)
+- [SlopCodeBench](https://www.scbench.ai/)
 - [Anti-slop manifesto](https://slopmanifesto.com/)
-- [The Twelve-Factor App](https://12factor.net/) — the title's likely namesake (not named in the talk)
 
-> **Vault Connections**: [[A Software Factory Critic Joins a Software Factory]] • [[Will Everyone Build an AI Factory? (Saiyam Pathak)]] • [[Building a High-Performance Token Factory (Jerry Chen)]] • [[Build the AI Context Layer for Your EPD Team (Yethoven Tukimin)]] • [[AI-Generated Code == Code You Can Trust - AISG & Sonar at EDB]]
+Related: [A Software Factory Critic Joins a Software Factory](./A%20Software%20Factory%20Critic%20Joins%20a%20Software%20Factory.md)
