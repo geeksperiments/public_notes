@@ -1,6 +1,8 @@
 # A Software Factory Critic Joins a Software Factory
 
-![Dex Horthy's talk thumbnail](https://i.ytimg.com/vi/-NFMsM2y0Vk/maxresdefault.jpg)
+![The software factory, illustrated by Factory](https://factory.com/static/cover-3092ba.png)
+
+*Image: Factory, from [Factory 2.0](https://factory.com/news/software-factory).*
 
 ## The news
 
@@ -15,6 +17,10 @@ His recent talk, "12 Rules for a Software Factory That Doesn't Ship Slop" ([the 
 ## What the essay actually said
 
 The essay's target is the lights-off factory, where no human reads or writes the code. Its core argument is about how models are trained and benchmarked. If the tests pass, the model wins, and nothing in that loop penalizes eroding a codebase's maintainability. His conclusion is that no amount of harness engineering fixes what is fundamentally a model-training issue. The essay is also explicit that you can still move fast without setting your codebase on fire.
+
+![Slide from Dex Horthy's talk: models keep improving at solving one-off problems, while improving codebase quality lags](Attachments/12-factor-factories-slide-know-your-enemy.svg)
+
+*Slide from Dex Horthy's talk ([6:26](https://youtu.be/-NFMsM2y0Vk?t=386)): models keep getting better at one-off problems, not at improving codebase quality.*
 
 ## What the talk moves forward
 
