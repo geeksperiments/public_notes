@@ -28,7 +28,7 @@ At the same talk he launched an anti-slop manifesto ([slopmanifesto.com](https:/
 
 One tension remains. Factory 2.0 describes a software factory as a continuous loop that it wants to be fully AI-driven, while also saying autonomy should grow gradually and that engineers stay responsible for governance and outcomes. How far toward lights-off that goes is the question I'd watch.
 
-The entertaining headline is that a critic joined the thing he criticized. His own framing is simpler: he was never against factories, only against slop. This move lets him help build the kind he argued for.
+The entertaining headline is that a critic joined the thing he criticized. His own framing is simpler: he was never against factories, only against slop. My reading is that this move lets him help build the kind he argued for.
 
 ---
 
