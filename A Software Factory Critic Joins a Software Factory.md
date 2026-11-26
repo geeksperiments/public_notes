@@ -20,7 +20,7 @@ The essay's target is the lights-off factory, where no human reads or writes the
 
 He presents data from SlopCodeBench ([scbench.ai](https://www.scbench.ai/)), a benchmark from a University of Wisconsin lab that tests whether coding agents hold up as a codebase evolves. It is still very unsaturated: the best models score in the mid-teens ([1:22](https://youtu.be/-NFMsM2y0Vk?t=82)). It is an early attempt at the maintainability measurement the essay said was missing.
 
-He also argues that a software factory is a way of thinking about the work, not a black box you can buy ([14:11](https://youtu.be/-NFMsM2y0Vk?t=851)). Some layers are undifferentiated building blocks you can buy. Verification is not one of them: only your team knows how your code should be tested ([13:25](https://youtu.be/-NFMsM2y0Vk?t=805)). That lines up with Factory's own writing about standardizing the process rather than just the output.
+He also argues that a software factory is a way of thinking about the work, not a black box you can buy ([14:11](https://youtu.be/-NFMsM2y0Vk?t=851)). Some layers are undifferentiated building blocks you can buy. Verification is not one of them: only your team knows how your code should be tested ([13:25](https://youtu.be/-NFMsM2y0Vk?t=805)). To me that lines up with Factory's own writing about standardizing the process rather than just the output.
 
 ## The thread, and the open question
 
@@ -40,5 +40,7 @@ The entertaining headline is that a critic joined the thing he criticized. His o
 - [Factory 2.0: From coding agents to software factories](https://factory.com/news/software-factory)
 - [SlopCodeBench](https://www.scbench.ai/)
 - [Anti-slop manifesto](https://slopmanifesto.com/)
+
+**Source method:** my summary of the talk is paraphrased from an automated transcript of the recording, checked against its slides, so wording is not quoted and product names may be slightly off. The reading of why he joined Factory is mine, not his.
 
 For a point-by-point summary of the talk, see [12 Factor Factories (Dex Horthy)](./12%20Factor%20Factories%20(Dex%20Horthy).md).
